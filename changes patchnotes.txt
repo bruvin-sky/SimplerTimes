@@ -1,3 +1,8 @@
+Simpler Times is a mod I made to vent, just wanting to see some Nomai structures in the game fixed and prettied up, starting with the Orbital Probe Cannon. Finishing that rather quickly, returning the Probe Tracking Module to the cannon made me wonder about maybe going a little further and making a mod that just fixed up a bunch of broken things - and by extension, made a more casual, new game plus version of the game.
+
+It also does away with the timed elements on Brittle Hollow and to an extent, on the Hourglass Twins - so if you struggled with those this might help, but really the point was to present a prettier version of the world, so I'd suggest another mod to help out unless you're feeling done with the game already.
+
+
 * Volcanic weather has calmed on Brittle Hollow
 
 The Hanging City's vertical gravity highway has been fixed
