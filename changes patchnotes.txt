@@ -8,6 +8,7 @@ But ***several critical things are made trivially accessible by this mod*** sinc
 ...Unless you're feeling straight-up done with the game already - in which case, I hope this mod helps give you a simpler time exploring and enjoying this beautiful world!
 
 
+
 CHANGES:
 
 * Volcanic weather has calmed on Brittle Hollow
