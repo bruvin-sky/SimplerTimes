@@ -1,0 +1,35 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "TowerTwinFunnel",
+
+
+	
+"Props": {
+	"audioSources": [
+		{
+			"audio": "planets/assets/waterfall.ogg",
+			"maxDistance": 200,
+			"minDistance": 10,
+			"volume": 1,
+			"track": "environment",
+			"position": {"x":-6.84,"y": 21.0617,"z": 345.6009}
+		},
+		{
+			"audio": "planets/assets/waterfall.ogg",
+			"maxDistance": 200,
+			"minDistance": 10,
+			"volume": 1,
+			"track": "environment",
+			"position": {"x":-6.84,"y": 21.0617,"z": 135.855}
+		}
+	],
+	"details": [
+			
+
+		
+
+		
+	]
+}
+}

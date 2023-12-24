@@ -1,0 +1,22 @@
+* Volcanic weather has calmed on Brittle Hollow
+
+The Hanging City's artificial gravity highway has been fixed
+Gravity pathway up to the Tower of Quantum Knowledge has been fixed
+Added a tractor beam controller to enter/exit the Hanging City from the north pole surface
+
+
+
+* Ancient lakes on the Hourglass Twins have resurfaced and drowned out its sand
+
+Removed overgrown cacti blocking lower Sunless City entrance from Gravity Cannon
+Added a light source to the fossil fish's lure
+Fixed a broken roof of a tower on Ash Twin
+Holes in the Sun Station tower's floor have been patched up
+Sun Station catwalk now remains intact to walk on
+
+
+
+* Orbital Probe Cannon now remains intact and no longer loses one of its modules (note: disregard a certain Nomai computer diagram)
+Added a Hearthian flag to the core of a planet
+
+Several broken, rotating doors have been fixed

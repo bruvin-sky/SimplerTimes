@@ -1,9 +1,10 @@
 {
-  "filename": "NewHorizonsConfig.dll",
-  "author": "[your name]",
-  "name": "[your readable mod name]",
-  "uniqueName": "[your name].[your unique mod ID]",
-  "version": "0.0.0",
-  "owmlVersion": "2.7.2",
-  "dependencies": [ "xen.NewHorizons" ]
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "IntactMod2.dll",
+  "author": "atk",
+  "name": "Simpler Times",
+  "uniqueName": "atk.IntactMod2",
+  "version": "0.1.0",
+  "owmlVersion": "2.9.8",
+  "dependencies": ["xen.NewHorizons"]
 }

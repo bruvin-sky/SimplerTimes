@@ -1,0 +1,273 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "Sun Station",
+	"removeChildren": [
+	
+	],
+
+"Props": {
+	"details": [
+		
+		{
+			"rename":"SS Bridge 1B wall",
+			"path":"Structure_NOM_SunStation_Debris_Small/wall",
+			"position":{"x":-58.3104,"y": 1.7537,"z": -0.9815},
+			"stretch": {"x":1,"y":1.4291,"z":1.7854},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"SS Bridge 1B coll",
+			"path":"Structure_NOM_SunStation_Debris_Small/collider",
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_SunStation/SS Bridge 1B wall"
+		},
+
+		{
+			"rename":"SS Bridge 2B wall",
+			"path":"Structure_NOM_SunStation_Debris_Small/wall",
+			"position":{"x":-39.5816,"y": 1.7537,"z": -0.9815},
+			"stretch": {"x":1,"y":1.4291,"z":1.7854},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"SS Bridge 2B coll",
+			"path":"Structure_NOM_SunStation_Debris_Small/collider",
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_SunStation/SS Bridge 2B wall"
+		},
+
+		{
+			"rename":"SS Bridge 3B wall",
+			"path":"Structure_NOM_SunStation_Debris_Small/wall",
+			"position":{"x":-20.7616,"y": 1.7537,"z": -0.9815},
+			"stretch": {"x":1,"y":1.4291,"z":1.7854},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"SS Bridge 3B coll",
+			"path":"Structure_NOM_SunStation_Debris_Small/collider",
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_SunStation/SS Bridge 3B wall"
+		},
+
+		{
+			"rename":"SS Bridge 4B wall",
+			"path":"Structure_NOM_SunStation_Debris_Small/wall",
+			"position":{"x":-1.7961,"y": 1.7537,"z": -0.9815},
+			"stretch": {"x":1,"y":1.4291,"z":1.7854},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"SS Bridge 4B coll",
+			"path":"Structure_NOM_SunStation_Debris_Small/collider",
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_SunStation/SS Bridge 4B wall"
+		},
+
+		{
+			"rename":"SS Bridge 5B wall",
+			"path":"Structure_NOM_SunStation_Debris_Small/wall",
+			"position":{"x":16.993,"y": 1.7537,"z": -0.9815},
+			"stretch": {"x":1,"y":1.4291,"z":1.7854},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"SS Bridge 5B coll",
+			"path":"Structure_NOM_SunStation_Debris_Small/collider",
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_SunStation/SS Bridge 5B wall"
+		},
+
+		{
+			"rename":"SS Bridge 6B wall",
+			"path":"Structure_NOM_SunStation_Debris_Small/wall",
+			"position":{"x":35.8203,"y": 1.7537,"z": -0.9815},
+			"stretch": {"x":1,"y":1.4291,"z":1.7854},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"SS Bridge 6B coll",
+			"path":"Structure_NOM_SunStation_Debris_Small/collider",
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_SunStation/SS Bridge 6B wall"
+		},
+
+		{
+			"rename":"SS Bridge 7B wall",
+			"path":"Structure_NOM_SunStation_Debris_Small/wall",
+			"position":{"x":57.0127,"y": 1.7537,"z": -0.9815},
+			"stretch": {"x":1.3273,"y":1.4291,"z":1.7854},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"SS Bridge 7B coll",
+			"path":"Structure_NOM_SunStation_Debris_Small/collider",
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_SunStation/SS Bridge 7B wall"
+		},
+
+
+
+
+
+
+		{
+			"rename":"SS Bridge 1 wall",
+			"path":"Structure_NOM_SunStation_Debris_Big/wall",
+			"position":{"x":-59.096,"y": 2.6564,"z": 0.2564},
+			"stretch": {"x":1,"y":1.1382,"z":1.4618},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"SS Bridge 1 coll",
+			"path":"Structure_NOM_SunStation_Debris_Big/collider",
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_SunStation/SS Bridge 1 wall"
+		},
+		
+		{
+			"rename":"SS Bridge 2 wall",
+			"path":"Structure_NOM_SunStation_Debris_Big/wall",
+			"position":{"x": -40.3308,"y": 2.6564,"z": 0.2564},
+			"stretch": {"x":1,"y":1.1382,"z":1.4618},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"SS Bridge 2 coll",
+			"path":"Structure_NOM_SunStation_Debris_Big/collider",
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_SunStation/SS Bridge 2 wall"
+		},
+
+		
+
+		{
+			"rename":"SS Bridge 4 AYO wall",
+			"path":"Structure_NOM_SunStation_Debris_Small/wall",
+			"position":{"x": -6.2034,"y": 2.6564,"z": 1.1675},
+			"rotation": {"x":0,"y":180,"z":0},
+			"stretch": {"x":2.7582,"y":1.1382,"z":1.7854},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"SS Bridge 4 AYO coll",
+			"path":"Structure_NOM_SunStation_Debris_Small/collider",
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_SunStation/SS Bridge 4 AYO wall"
+		},
+
+		{
+			"rename":"SS Bridge 5 wall",
+			"path":"Structure_NOM_SunStation_Debris_Big/wall",
+			"position":{"x":15.8928,"y": 2.6564,"z": 0.2564},
+			"stretch": {"x":1,"y":1.1382,"z":1.4618},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"SS Bridge 5 coll",
+			"path":"Structure_NOM_SunStation_Debris_Big/collider",
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_SunStation/SS Bridge 5 wall"
+		},
+
+
+		{
+			"rename":"SS Bridge 6 wall",
+			"path":"Structure_NOM_SunStation_Debris_Big/wall",
+			"position":{"x":28.0875,"y": 2.6564,"z": 0.2564},
+			"stretch": {"x":1,"y":1.1382,"z":1.4618},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"SS Bridge 6 coll",
+			"path":"Structure_NOM_SunStation_Debris_Big/collider",
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_SunStation/SS Bridge 6 wall"
+		},
+
+		{
+			"rename":"SS Bridge 7 wall",
+			"path":"Structure_NOM_SunStation_Debris_Big/wall",
+			"position":{"x":53.0544,"y": 2.6564,"z":  0.2564},
+			"stretch": {"x":1.6491,"y":1.1382,"z":1.4618},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"SS Bridge 7 coll",
+			"path":"Structure_NOM_SunStation_Debris_Big/collider",
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_SunStation/SS Bridge 7 wall"
+		},
+
+		
+		{
+			"rename":"bridge glass",
+			"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_SS/Geometry_Tower_SS/OtherComponentsGroup/ControlledByProxy_Arch/Structure_HT_TT_Tower_ST/Towers/Tower_SS/Structure_HT_TT_Tower_ST/glass",
+			"position":{"x":-4.4718,"y": -1.0969,"z": 0.0001},
+			"rotation": {"x":0,"y": 90,"z": 0},
+			"stretch": {"x":1,"y": 1,"z": 3.4255},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"bridge glass coll",
+			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+			"position":{"x":-5.6467,"y": -1.4315,"z": -0.0775},
+			"rotation": {"x":0,"y": 270,"z": 0},
+			"stretch": {"x":8,"y": 1,"z": 51.1126},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"bridge glass decal1",
+			"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_HGT/Geometry_Tower_HGT/ControlledByProxy_Arch/Structure_HT_TT_Tower_TT/Towers/Structure_HT_TT_Tower_HT/Structure_HT_TT_Tower_HT_Tower_Reticule",
+			"position":{"x":-7.2558,"y": -1.1751,"z":  0.1278},
+			"rotation": {"x":0,"y": 90,"z": 0},
+			"stretch": {"x":2,"y": 1,"z": 3.2},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"bridge glass decal2",
+			"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_HGT/Geometry_Tower_HGT/ControlledByProxy_Arch/Structure_HT_TT_Tower_TT/Towers/Structure_HT_TT_Tower_HT/Structure_HT_TT_Tower_HT_Tower_Reticule",
+			"position":{"x":-16.9376,"y": -1.1751,"z": 0.1278},
+			"rotation": {"x":0,"y": 270,"z": 0},
+			"stretch": {"x":2,"y": 1,"z": 3.2},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"bridge gravity",
+			"path":"SunStation_Body/Sector_SunStation/Sector_WarpModule/Volumes_WarpModule/DirectionalForceVolume",
+			"position":{"x":8.1569,"y": 1.2318,"z": -0.0509},
+			"rotation": {"x":0,"y": 180,"z": 0},
+			"stretch": {"x":14.8182,"y": 0.8582,"z": 0.6527},
+			"isRelativeToParent": true
+		}
+
+	]
+}
+}

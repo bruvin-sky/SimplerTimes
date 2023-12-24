@@ -1,0 +1,38 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "GiantsDeep",
+
+"removeChildren": [
+	"Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken_HideFromProjectionPool",
+	"Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken"
+],
+
+
+"Props": {
+	"details": [
+		{
+			"path": "Moon_Body/Sector_THM/Props_THM/OtherComponentsGroup/Props_HEA_LunarFlag",
+			"position": {"x":-1.4969,"y": -26.6737,"z": -5.4381},
+			"rotation": {"x":338.2543,"y": 161.1116,"z": 238.9421},
+			"isRelativeToParent": true
+		},
+		{
+			"path": "Moon_Body/Sector_THM/DetailPatches_THM/Decals_THM/OWV Decal",
+			"parentPath": "Sector_GD/Props_HEA_LunarFlag",
+			"position": {"x": 1.1873,"y": 3.2,"z": -2.0309},
+			"rotation": {"x": 324.422,"y": 113.7994,"z": 343.6461},
+			"stretch": {"x":1,"y":0.1,"z":1},
+			"isRelativeToParent": true
+		},
+		{
+			"path": "Moon_Body/Sector_THM/DetailPatches_THM/Decals_THM/OWV Decal",
+			"parentPath": "Sector_GD/Props_HEA_LunarFlag",
+			"position": {"x": 1.2237,"y": 3.1,"z": -2.0309},
+			"rotation": {"x": 324.422,"y": 113.7994,"z": 343.6461},
+			"stretch": {"x":1,"y":0.1,"z":1},
+			"isRelativeToParent": true
+		}
+	]
+}
+}

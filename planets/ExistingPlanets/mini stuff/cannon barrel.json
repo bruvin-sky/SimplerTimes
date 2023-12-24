@@ -1,0 +1,10 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "CannonBarrel",
+"removeChildren": [
+	"Sector_CannonDebrisMid/Geo_CannonDebrisMid",
+	"Sector_CannonDebrisMid/Volumes_CannonDebrisMid",
+	"Sector_CannonDebrisMid/Proxy_CannonDebrisMid/Structure_NOM_OrbitalProbeCannon_Proxy"
+]
+}

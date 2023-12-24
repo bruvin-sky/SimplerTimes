@@ -1,0 +1,227 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "ProbeCannon",
+
+"removeChildren": [
+	
+
+	"Sector_OrbitalProbeCannon/Effects_OrbitalProbeCannon",
+	"Sector_OrbitalProbeCannon/Interactables_OrbitalProbeCannon/Interactables_VisibleOrbitalProbeCannon/OPC_Connector_Broken_BrokenPiece (1)",
+	"Sector_OrbitalProbeCannon/Lighting_OrbitalProbeCannon/FillLight_Entryway",
+
+	"Sector_OrbitalProbeCannon/Sector_Module_Broken",
+	"Sector_OrbitalProbeCannon/Interactables_OrbitalProbeCannon/Interactables_VisibleOrbitalProbeCannon/DynamicProps",
+	"Sector_OrbitalProbeCannon/ProbeTracker Module/Interactables_GDCore/Prefab_NOM_Airlock/AirlockEffects",
+
+
+	"Sector_OrbitalProbeCannon/Launch Module/Interactables_Module_Intact/Prefab_NOM_RemoteViewer (1)",
+	"Sector_OrbitalProbeCannon/Launch Module/Interactables_Module_Intact/Prefab_NOM_Whiteboard_Shared",
+	"Sector_OrbitalProbeCannon/Launch Module/Interactables_Module_Intact/Prefab_NOM_SharedStone_BrokenModule",
+	"Sector_OrbitalProbeCannon/Launch Module/Interactables_Module_Intact/Prefab_NOM_SharedStone_ConstructionYard",
+
+	"Sector_OrbitalProbeCannon/ProbeTracker Module/Interactables_Module_Sunken/Prefab_NOM_SharedStone_BrokenModule",
+	"Sector_OrbitalProbeCannon/ProbeTracker Module/Interactables_Module_Sunken/Prefab_NOM_RemoteViewer (1)",
+	"Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/Prefab_NOM_SharedStone_BrokenModule",
+
+	"Sector_OrbitalProbeCannon/ProbeTracker Module/Interactables_GDCore/Prefab_NOM_Airlock/AirlockOxygenVolume",
+
+	"Sector_OrbitalProbeCannon/Prefab_GravityCannonPlatform/Structure_NOM_GravityCannon_LandingTractorBeam",
+	"Sector_OrbitalProbeCannon/Prefab_GravityCannonPlatform/Structure_NOM_GravityCannon_LaunchingPlatform"
+],
+
+	"Props" :
+	{
+		
+	"remotes": [
+
+		{"id": "Launch Module",
+		"decalPath": "planets/assets/opc broken projection decal.png",
+		"platform":
+		{
+			"rename": "Launch Module pool",
+			"position": {"x":0,"y": 8.7505 ,"z": 0},
+			"rotation": {"x":0,"y": 0,"z": 180},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_OrbitalProbeCannon/Launch Module/Interactables_Module_Intact"
+		},
+		"stones":
+		[{
+			"rename": "Launch Module Stone",
+			"position": {"x":-9.304,"y": 8.108,"z": -2.774},
+			"rotation": {"x":359.2437,"y": 350.276,"z": 179.0609},
+			"isRelativeToParent": true,
+			"parentPath": "Sector_OrbitalProbeCannon/ProbeTracker Module/Interactables_Module_Sunken"
+		},
+		{
+			"rename": "Launch Module Stone IntactModule",
+			"position": {"x":8.0904,"y": 59.932,"z": 6.1491},
+			"rotation": {"x":8.3614,"y": 0,"z": 90},
+			"isRelativeToParent": false,
+			"parentPath": "Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact"
+		}
+	]
+	},
+
+
+	{"id": "Probe Tracking Module",
+	"decalPath": "planets/assets/ptm icon.png",
+	"platform":
+	{
+		"rename": "PTM Module ATM Machine pool",
+		"position": {"x":0,"y": 8.75 ,"z": 0},
+		"rotation": {"x":0,"y": 0,"z": 180},
+		"isRelativeToParent": true,
+		"parentPath": "Sector_OrbitalProbeCannon/ProbeTracker Module/Interactables_Module_Sunken"
+	},
+	"stones":	[{
+		"rename": "Sunken Stone",
+		"position": {"x":7.2308,"y": 7.681,"z": -0.9759},
+		"rotation": {"x":0,"y": 255,"z": 180},
+		"isRelativeToParent": true,
+		"parentPath": "Sector_OrbitalProbeCannon/Launch Module/Interactables_Module_Intact"
+	}]
+},
+
+	
+	{"id": "GD_ProbeCannonIntactModule",
+	"decalPath": "planets/assets/opc projection decal.png",
+	"stones":
+	[{
+		"rename": "Intact Stone",
+		"position": {"x":-55.027, "y": -22.9015,"z": 7.1183},
+		"rotation": {"x":2.3739,"y": 355.8824,"z": 209.9146},
+		"isRelativeToParent": true
+	}]
+}
+	],
+
+	
+"audioSources": [
+	{
+		"audio": "planets/assets/gravcannon.ogg",
+		"maxDistance": 200,
+		"minDistance": 60,
+		"volume": 0.7,
+		"track": "environment",
+		"position": {"x":40,"y": 0,"z": 0},
+		"isRelativeToParent": true
+	}
+],
+	"details": 
+	[
+		
+
+		{
+			"rename": "gravity volume opc",
+			"path": "BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Interactables_GravityCannon/CannonForceVolume/",
+			"position": {"x":178.2679,"y": 2.5605,"z": -0.6662},
+			"rotation": {"x":0,"y": 180,"z": 90.0001},		
+			"isRelativeToParent": true,
+			"stretch": {"x":1,"y": 3,"z": 1},
+			"keepLoaded": true
+		},
+		{
+			"rename": "OPC base touchup",
+			"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Geo_OrbitalProbeCannon/ControlledByProxy_OrbitalProbeCannon/Structure_NOM_OrbitalProbeCannon/OPC_Base_Geo",
+			"rotation": {"x":60,"y": 180,"z": 180},
+			"isRelativeToParent": true,
+			"scale":1.01,
+			"keepLoaded": true
+		},
+
+		{
+			"rename": "OPC intact barrel",
+			"path": "CannonBarrel_Body/Sector_CannonDebrisMid/Geo_CannonDebrisMid",
+			"position": {"x":184.3018, "y": 0.7578,"z": -0.1981},
+			"rotation": {"x":60,"y": 180,"z": 180},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename": "OPC intact muzzle",
+			"path": "CannonMuzzle_Body/Sector_CannonDebrisTip/Geo_CannonDebrisTip",
+			"position": {"x":275.4665, "y": 0.667,"z": 0.0366},
+			"rotation": {"x":60,"y": 180,"z": 180},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"path": "CannonBarrel_Body/Sector_CannonDebrisMid/Proxy_CannonDebrisMid/Structure_NOM_OrbitalProbeCannon_Proxy/OPC_Cannon_Mid_Proxy",
+			"parentPath": "Sector_OrbitalProbeCannon/OPC intact barrel",
+			"isRelativeToParent": true
+		},
+		{
+			"path": "CannonMuzzle_Body/Sector_CannonDebrisTip/Proxy_CannonDebrisTip/Structure_NOM_OrbitalProbeCannon_Proxy/OPC_Cannon_Tip_Proxy",
+			"parentPath": "Sector_OrbitalProbeCannon/OPC intact muzzle",
+			"isRelativeToParent": true
+		},
+
+		
+			{
+				"rename":"Launch Module",
+				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact",
+				"position": {"x":0,"y": -30,"z": 51.9616},
+				"rotation": {"x":300,"y": 0,"z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Launch Module whiteboard replaced",
+				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Broken/Interactables_Module_Broken/Prefab_NOM_Whiteboard_Shared",
+				"parentPath": "Sector_OrbitalProbeCannon/Launch Module/Interactables_Module_Intact",
+				"position": {"x":0,"y": 8.7385,"z": 12.2122},
+				"rotation": {"x":0,"y":180,"z":180},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Launch Module bench",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"position": {"x":-2.7252,"y": -27.223,"z": 64.5936},
+				"rotation": {"x":333.2387,"y": 137.2026,"z": 200.1141},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Launch Module fill light",
+				"path": "QuantumIsland_Body/Sector_QuantumIsland/Lighting_QuantumTower/OtherComponentsGroup/FillLight_NOM_QuantumTowerCave",
+				"parentPath": "Sector_OrbitalProbeCannon/Launch Module",
+				"position": {"x":0,"y": 0,"z": 0},
+				"isRelativeToParent": true
+			},
+
+
+			
+			{
+				"rename":"ProbeTracker Module",
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken",
+				"position": {"x":-4.9343,"y": -26.4012,"z": -50.6157},
+				"rotation": {"x": 63.6294,"y": 4.1447,"z": 355.1451},
+				"isRelativeToParent": true
+			},
+			{
+				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Broken/Interactables_OrbitalProbeCannon/Prefab_NOM_Airlock",
+				"parentPath": "Sector_OrbitalProbeCannon/ProbeTracker Module/Interactables_GDCore",
+				"position": {"x":0,"y":0,"z": -20},
+				"rotation": {"x":0,"y":270,"z":0},
+				"isRelativeToParent": true
+			}
+
+	],
+	"proxyDetails": [
+	{
+			"path":"CannonBarrel_Body/Sector_CannonDebrisMid",
+			"position": {"x":184.3018, "y": 0.7578,"z": -0.1981},
+			"rotation": {"x":60,"y": 180,"z": 180},
+			"isRelativeToParent": true
+	},
+	{
+		"path":"CannonMuzzle_Body/Sector_CannonDebrisTip",
+		"position": {"x":275.4665, "y": 0.667,"z": 0.0366},
+		"rotation": {"x":60,"y": 180,"z": 180},
+		"isRelativeToParent": true
+	}
+	]
+
+
+	
+	}
+}

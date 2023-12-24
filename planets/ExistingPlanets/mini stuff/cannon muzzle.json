@@ -1,0 +1,10 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "CannonMuzzle",
+"removeChildren": [
+	"Sector_CannonDebrisTip/Geo_CannonDebrisTip",
+	"Sector_CannonDebrisTip/Volumes_CannonDebrisTip",
+	"Sector_CannonDebrisTip/Proxy_CannonDebrisTip/Structure_NOM_OrbitalProbeCannon_Proxy"
+]
+}

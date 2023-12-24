@@ -1,0 +1,227 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	
+
+	"name": "Ash Twin",
+
+	"removeChildren": [
+		"SandSphere_Draining",
+		"Sector_TowerTwin/Sector_Tower_SS/Interactables_Tower_SS/Tower_SS_VisibleFrom_TowerTwin/Doors/Prefab_NOM_RotatingDoor_Broken",
+
+		"Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors/Prefab_NOM_RotatingDoor",
+		"Sector_TowerTwin/SS down beam/Props_NOM_SmallTractorBeam",
+		"Sector_TowerTwin/Sector_Tower_SS/Interactables_Tower_SS/Cacti"
+		
+	],
+	"Funnel": {
+		"type": "water",
+		
+		"target": "Ember Twin",
+		"tint": {
+			"r": 0,
+			"g": 51,
+			"b": 102,
+			"a": 20
+		},
+		"curve": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 2.85,
+				"value": 1
+			},
+			{
+				"time": 20.15,
+				"value": 1
+			},
+			{
+				"time": 21,
+				"value": 0
+			}
+		]
+	},
+
+	
+	"Water": {
+		"curve": [
+			{
+				"time": 0,
+				"value": 165
+			},
+			{
+				"time": 2,
+				"value": 165
+			},
+			{
+				"time": 21,
+				"value": 30
+			}
+		],
+		"buoyancy": 1.63,
+		"size": 1,
+		"tint": {
+			"r": 0,
+			"g": 51,
+			"b": 102,
+			"a": 20
+		}
+	},
+
+	"Volumes": {
+		"fluidVolumes": [
+			{
+				"type":"air",
+				"radius":39,
+				"layer": 0,
+				"priority": 5
+			}
+		]
+	},
+
+	"Props": {
+		"details": [
+			{
+				"rename":"SS tower floor 1",
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/floor.prefab",
+				"position": {"x": 115.3482,"y": 5.2612,"z": -72.0761},
+				"rotation": {"x": 0.2138,"y": 31.9086,"z": 269.9993},
+				"scale": 3,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"SS tower floor 2",
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/floor.prefab",
+				"position": {"x": 112.7063,"y": 1.0122,"z": -76.2121},
+				"rotation": {"x": 0.2138,"y": 31.9086,"z": 269.5284},
+				"scale": 3,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"SS tower floor 3",
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/floor.prefab",
+				"position": {"x": 113.0281,"y": -6.3296,"z": -75.6321},
+				"rotation": {"x": 0.2138,"y": 32.8032,"z": 0.0246},
+				"scale": 3,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"SS tower floor 4 corner",
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/floor.prefab",
+				"position": {"x": 112.2137,"y": 6.7576,"z": -77.2578},
+				"rotation": {"x": 44.2198,"y": 31.5594,"z": 269.3279},
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"SS down beam",
+				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_SS/Interactables_Tower_SS/Prefab_NOM_TractorBeam",
+				"position": {"x": 115.4267,"y": 8.9902,"z": -71.816},
+				"rotation": {"x":358.9812,"y": 31.9086,"z": 269.9993},
+				"isRelativeToParent": true
+			},
+
+			{
+				"path": "QuantumMoon_Body/Volumes/SunOverrideVolume",
+				"parentPath": "Sector_TowerTwin/Water",
+				"scale":0.0096
+			},
+
+
+			{
+				"rename":"TH tower Door 1",
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/orbdoor.prefab",
+				"parentPath": "Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors",
+				"position": {"x": 0,"y": 98.33,"z": -16.54},
+				"rotation": {"x":0,"y": 90,"z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"TH tower Door 2",
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/orbdoor.prefab",
+				"parentPath": "Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors",
+				"position": {"x": 0,"y": 98.33,"z": 16.54},
+				"rotation": {"x":0,"y": 270,"z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"SS tower Door",
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/orbdoor.prefab",
+				"parentPath": "Sector_TowerTwin/Sector_Tower_SS/Interactables_Tower_SS/Tower_SS_VisibleFrom_TowerTwin/Doors",
+				"position": {"x": 0,"y": 146.17,"z": 11.811},
+				"rotation": {"x":0,"y": 270.0843,"z": 0},
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_Tower_HGT/Geometry_Tower_HGT/ControlledByProxy_Arch/Structure_HT_TT_Tower_TT/Towers/Structure_HT_TT_Tower_HT/Structure_HT_TT_Tower_HT_Tower_Reticule",
+				"position": {"x":-0.0355,"y": -13.7993,"z": 136.7592},
+				"parentPath": "Sector_TowerTwin/Sector_Tower_HGT/Geometry_Tower_HGT/ControlledByProxy_Arch/Structure_HT_TT_Tower_TT/Towers/Structure_HT_TT_Tower_HT",
+				"rotation": {"x":270,"y": 180,"z": 0},
+				"isRelativeToParent": true,
+				"stretch": {"x":1,"y":1,"z":1.5}
+			},
+			{
+				"rename":"AshTwin tower glass",
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_Tower_SS/Geometry_Tower_SS/OtherComponentsGroup/ControlledByProxy_Arch/Structure_HT_TT_Tower_ST/Towers/Tower_SS/Structure_HT_TT_Tower_ST/glass",
+				"position": {"x":0.0484,"y": 13.8157,"z": -136.9283},
+				"rotation": {"x":90,"y": 178.7849,"z": 0},
+				"scale":0.8,
+				"isRelativeToParent": true
+			},
+			{
+				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"position": {"x":-0.1817,"y": 13.8314,"z": -136.3157},
+				"rotation": {"x":0,"y": 270,"z": 90},
+				"stretch": {"x":12.5,"y":1,"z": 12.5},
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"TH tower glass",
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_Tower_SS/Geometry_Tower_SS/OtherComponentsGroup/ControlledByProxy_Arch/Structure_HT_TT_Tower_ST/Towers/Tower_SS/Structure_HT_TT_Tower_ST/glass",
+				"position": {"x":-127.5421,"y": 0.1669,"z": -24.0798},
+				"rotation": {"x":90,"y": 79.671,"z": 0},
+				"scale": 0.8,
+				"isRelativeToParent": true
+			},
+			{
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_Tower_HGT/Geometry_Tower_HGT/ControlledByProxy_Arch/Structure_HT_TT_Tower_TT/Towers/Structure_HT_TT_Tower_HT/Structure_HT_TT_Tower_HT_Tower_Reticule/",
+				"position": {"x":-127.2886,"y": 0.0667,"z": -24.8914},
+				"rotation": {"x":270,"y": 257.2831,"z": 0},
+				"scale":1,
+				"isRelativeToParent": true
+			},
+			{
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_Tower_HGT/Geometry_Tower_HGT/ControlledByProxy_Arch/Structure_HT_TT_Tower_TT/Towers/Structure_HT_TT_Tower_HT/Structure_HT_TT_Tower_HT_Tower_Reticule/",
+				"position": {"x":-127.2886,"y": 0.0667,"z": -24.8914},
+				"rotation": {"x":270,"y": 77.9684,"z": 0},
+				"scale":1,
+				"isRelativeToParent": true
+			},
+			{
+				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"position": {"x":-126.0898,"y": 0.4185,"z": -24.9606},
+				"rotation": {"x":270,"y": 77.9684,"z": 0},
+				"stretch": {"x":12.5,"y":3,"z": 12.5},
+				"isRelativeToParent": true
+			}
+		]
+	}
+
+	}

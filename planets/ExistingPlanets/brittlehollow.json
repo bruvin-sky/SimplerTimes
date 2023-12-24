@@ -1,0 +1,225 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "Brittle Hollow",
+
+	"removeChildren": [
+		"Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/Prefab_NOM_RotatingDoor_Broken",
+		"Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Interactables_NorthPoleSurface/LowBuilding/Props_NOM_TractorBeam (3)",
+		"Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Lighting_HangingCity_Entrance/VisibleFrom_BH/Prefab_NOM_WallTorch (1)",
+		"Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Geometry_HangingCity_Entrance",
+
+
+		
+		"Sector_BH/Sector_QuantumFragment/Geometry_QuantumFragment/ControlledByProxy_Architecture/Architecture_Quantum_Fragment/BatchedGroup/BatchedMeshRenderers_0",
+		"Sector_BH/Sector_QuantumFragment/Geometry_QuantumFragment/ControlledByProxy_Architecture/Architecture_Quantum_Fragment/BatchedGroup/BatchedMeshRenderers_1",
+		"Sector_BH/Sector_QuantumFragment/Geometry_QuantumFragment/ControlledByProxy_Architecture/Architecture_Quantum_Fragment/BatchedGroup/BatchedMeshRenderers_3",
+		"Sector_BH/Sector_QuantumFragment/Geometry_QuantumFragment/ControlledByProxy_Architecture/Architecture_Quantum_Fragment/BatchedGroup/BatchedMeshRenderers_4",
+		"Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Undercrust/GravityFloorVolumes/GravityVolume (2)",
+
+		"Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Volumes_HangingCity_Entrance/GravityVolume",
+		"Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Volumes_HangingCity_Entrance/GravityVolume (6)"
+	],
+
+	"Props": {
+		"details": [
+			{
+				"rename":"BHF copper left",
+				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_BH/Props_Tower_BH/OtherComponentsGroup/Structure_NOM_WarpReceiver_CopperSymbol",
+				"position": {"x": -0.7406,"y": 262.6533,"z": 66.6999},
+				"rotation": {"x": 304.4919,"y": 71.7772,"z": 291.9219},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"BHF copper right",
+				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_BH/Props_Tower_BH/OtherComponentsGroup/Structure_NOM_WarpReceiver_CopperSymbol",
+				"position": {"x": 15.9511,"y": 262.6533,"z": 66.5083},
+				"rotation": {"x": 51.469,"y": 252.2881,"z": 68.2367},
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"BH Gravity floor volume left",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Volumes_HangingCity_Entrance/GravityVolume (6)",
+				"position": {"x": 0.9582,"y": 203.1548,"z": 48.5947},
+				"rotation": {"x": 283.54,"y": 6.7603,"z": 83.8234},
+				"stretch": {"x":1,"y":1,"z":1.5},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"BH Gravity floor volume right",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Volumes_HangingCity_Entrance/GravityVolume (6)",
+				"position": {"x": 11.6227,"y": 207.0776,"z": 49.1927},
+				"rotation": {"x": 283.5401,"y": 6.7603,"z": 263.8234},
+				"stretch": {"x":1,"y":1,"z": 1.5},
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Hanging City tower intact",
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/repaired_entrance (1).prefab",
+				"parentPath": "Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance",
+				"position": {"x":0,"y": 0 ,"z": 0},
+				"rotation": {"x":0,"y": 0 ,"z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Hanging City entrance torch",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Lighting_HangingCity_Entrance/VisibleFrom_BH/Prefab_NOM_WallTorch",
+				"parentPath": "Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Lighting_HangingCity_Entrance/VisibleFrom_BH",
+				"position": {"x": 2.71,"y": 186.95,"z": 45.058},
+				"rotation": {"x":356.845,"y": 90,"z": 15},
+				"scale":3.9287,
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"QTower Gravity floor volume",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Undercrust/GravityFloorVolumes/GravityVolume (1)",
+				"parentPath": "Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Undercrust/GravityFloorVolumes",
+				"position": {"x": 13.5906,"y": 179.9725,"z": -0.0317},
+				"rotation": {"x":89.831,"y": 180.0839,"z": 270.0012},
+				"stretch": {"x":1,"y":1,"z":6.4073},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Observatory Door",
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/orbdoor.prefab",
+				"parentPath": "Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole",
+				"position": {"x":1.7876,"y": -293.5285 ,"z": 52.9885},
+				"rotation": {"x":0,"y": 90,"z": 180},
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/BH exit tractor grp.prefab",
+				"position": {"x":0,"y": 0,"z": 0},
+				"rotation": {"x":0,"y": 0,"z": 0},
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/gravity floor.prefab",
+				"position": {"x":8.4589,"y": 128.7291,"z": -10.6289},
+				"rotation": {"x":90,"y": 321.5115,"z": 0},
+				"stretch": {"x":1.98,"y": 5.5,"z": 2},
+				"parentPath": "Sector_BH/Sector_QuantumFragment",
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/gravity floor.prefab",
+				"position": {"x":8.4589,"y": 136.7291,"z": -10.6289},
+				"rotation": {"x":90,"y": 321.5115,"z": 0},
+				"stretch": {"x":1.98,"y": 5.5,"z": 2},
+				"parentPath": "Sector_BH/Sector_QuantumFragment",
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/gravity floor.prefab",
+				"position": {"x":8.4589,"y": 144.7291,"z": -10.6289},
+				"rotation": {"x":90,"y": 321.5115,"z": 0},
+				"stretch": {"x":1.98,"y": 5.5,"z": 2},
+				"parentPath": "Sector_BH/Sector_QuantumFragment",
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/gravity floor.prefab",
+				"position": {"x":8.4589,"y": 152.7291,"z": -10.6289},
+				"rotation": {"x":90,"y": 321.5115,"z": 0},
+				"stretch": {"x":1.98,"y": 5.5,"z": 2},
+				"parentPath": "Sector_BH/Sector_QuantumFragment",
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/gravity floor.prefab",
+				"position": {"x":8.4589,"y": 160.7291,"z": -10.6289},
+				"rotation": {"x":90,"y": 321.5115,"z": 0},
+				"stretch": {"x":1.98,"y": 5.5,"z": 2},
+				"parentPath": "Sector_BH/Sector_QuantumFragment",
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/gravity floor.prefab",
+				"position": {"x":8.4589,"y": 168.7291,"z": -10.6289},
+				"rotation": {"x":90,"y": 321.5115,"z": 0},
+				"stretch": {"x":1.98,"y": 5.5,"z": 2},
+				"parentPath": "Sector_BH/Sector_QuantumFragment",
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/gravity floor.prefab",
+				"position": {"x":8.4589,"y": 176.7291,"z": -10.6289},
+				"rotation": {"x":90,"y": 321.5115,"z": 0},
+				"stretch": {"x":1.98,"y": 5.5,"z": 2},
+				"parentPath": "Sector_BH/Sector_QuantumFragment",
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/gravity floor.prefab",
+				"position": {"x":8.4589,"y": 184.7291,"z": -10.6289},
+				"rotation": {"x":90,"y": 321.5115,"z": 0},
+				"stretch": {"x":1.98,"y": 5.5,"z": 2},
+				"parentPath": "Sector_BH/Sector_QuantumFragment",
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/gravity floor.prefab",
+				"position": {"x":8.4589,"y": 192.7291,"z": -10.6289},
+				"rotation": {"x":90,"y": 321.5115,"z": 0},
+				"stretch": {"x":1.98,"y": 5.5,"z": 2},
+				"parentPath": "Sector_BH/Sector_QuantumFragment",
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/gravity floor.prefab",
+				"position": {"x":8.4589,"y": 200.7291,"z": -10.6289},
+				"rotation": {"x":90,"y": 321.5115,"z": 0},
+				"stretch": {"x":1.98,"y": 5.5,"z": 2},
+				"parentPath": "Sector_BH/Sector_QuantumFragment",
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/gravity floor.prefab",
+				"position": {"x":8.4589,"y": 208.7291,"z": -10.6289},
+				"rotation": {"x":90,"y": 321.5115,"z": 0},
+				"stretch": {"x":1.98,"y": 5.5,"z": 2},
+				"parentPath": "Sector_BH/Sector_QuantumFragment",
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/gravity floor.prefab",
+				"position": {"x":8.4589,"y": 216.7291,"z": -10.6289},
+				"rotation": {"x":90,"y": 321.5115,"z": 0},
+				"stretch": {"x":1.98,"y": 5.5,"z": 2},
+				"parentPath": "Sector_BH/Sector_QuantumFragment",
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/prefabs/gravity floor.prefab",
+				"position": {"x":8.4589,"y": 224.7291,"z": -10.6289},
+				"rotation": {"x":90,"y": 321.5115,"z": 0},
+				"stretch": {"x":1.98,"y": 5.5,"z": 2},
+				"parentPath": "Sector_BH/Sector_QuantumFragment",
+				"isRelativeToParent": true
+			}
+
+		]
+	}
+
+}
