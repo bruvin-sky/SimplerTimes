@@ -1,0 +1,74 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "Ember Twin",
+"removeChildren": [
+		"Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/city eye gm base/DarkMatter/DarkMatterVolume/ProbeVisuals",
+		"Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/city eye gm base/DarkMatter/DarkMatterVolume (1)/ProbeVisuals",
+		"Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/city eye gm base/DarkMatter/DarkMatterVolume (2)/ProbeVisuals"
+],
+"Volumes": {
+	"notificationVolumes": 
+	[
+		{
+			"entryNotification": {"displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"},
+			"radius": 14.06,
+			"parentPath": "Sector_CaveTwin/cannonpath gm 1",
+			"position": {"x":0,"y":0,"z":0},
+			"isRelativeToParent": true
+		},
+		{
+			"entryNotification": {"displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"},
+			"radius": 14.06,
+			"parentPath": "Sector_CaveTwin/cannonpath gm 2",
+			"position": {"x":0,"y":0,"z":0},
+			"isRelativeToParent": true
+		},
+		{
+			"entryNotification": {"displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"},
+			"radius": 14.06,
+			"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/city eye gm base",
+			"position": {"x":0,"y":0,"z":0},
+			"isRelativeToParent": true
+		},
+
+		{
+			"entryNotification": {"displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"},
+			"radius": 30,
+			"parentPath": "Sector_CaveTwin/Energy Lab gm",
+			"position": {"x":0,"y":0,"z":0},
+			"isRelativeToParent": true
+		}
+	]	
+},
+
+"Props": {
+	
+	"details": [
+	
+		{
+			"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter",
+			"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/city eye gm base",
+			"position": {"x":9.4089,"y":20.0019,"z":-13.6341},
+			"rotation": {"x":2.1401,"y":338.8161,"z":16.9002},
+			"isRelativeToParent": true
+		},
+
+		{
+			"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_CannonPath/Interactables_CannonPath/DarkMatter/Effects_GM_AuroraWisps",
+			"parentPath": "Sector_CaveTwin/cannonpath gm 1",
+			"position": {"x":30.22,"y": -117.19,"z": -53.27},
+			"rotation": {"x": 22.4593,"y": 6.231,"z": 195.7043},
+			"isRelativeToParent": false
+		},
+		
+		{
+			"path": "CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/Effects_GM_AuroraWisps",
+			"parentPath": "Sector_CaveTwin/Energy Lab gm",
+			"position": {"x":105.4594,"y": -36.5763,"z": 52.8831},
+			"rotation": {"x": 291.7393,"y": 28.4307,"z": 213.1689},
+			"isRelativeToParent": false
+		}
+	]
+}
+}
