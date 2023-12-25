@@ -21,7 +21,7 @@ Added a tractor beam controller to enter/exit the Hanging City from the north po
 
 
 
-* Ancient lakes on the Hourglass Twins have resurfaced and washed away its sand
+* Ancient lakes on the Hourglass Twins have resurfaced and washed away its sand, along with sand streams underground
 
 Removed overgrown cacti blocking lower Sunless City entrance from Gravity Cannon
 Added a light source to the fossil fish's lure

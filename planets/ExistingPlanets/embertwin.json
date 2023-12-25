@@ -39,7 +39,11 @@
 		"Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Sector_LakebedCaves/Interactables_LakebedCaves/Prefab_HT_Sandfall (5)",
 		"Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Sector_LakebedCaves/Interactables_LakebedCaves/Prefab_HT_Sandfall (6)",
 		"Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Sector_LakebedCaves/Interactables_LakebedCaves/Prefab_HT_Sandfall (7)",
-		"Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Sector_LakebedQuantum/Interactables_LakebedQuantum/Prefab_HT_Sandfall"
+		"Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Sector_LakebedQuantum/Interactables_LakebedQuantum/Prefab_HT_Sandfall",
+
+		"Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilPath/Interactables_FossilPath/Prefab_HT_Sandfall",
+		"Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilPath/Interactables_FossilPath/Prefab_HT_Sandfall (1)",
+		"Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilPath/Interactables_FossilPath/Prefab_HT_Sandfall (2)"
 	],
 	"Water": {
 		"curve": [
@@ -159,17 +163,17 @@
 				"rename":"waterfall flap3 bridgeover",
 				"assetBundle": "planets/bundle/felix",
 				"path":"assets/nomai ruins/waterfall clear.prefab",
-				"position":{"x": -2.3463,"y": -89.0086,"z": 60.4905},
+				"position":{"x": -4.1463,"y": -88.41596,"z": 61.5851},
 				"rotation": {"x":20.4991,"y": 131.3934,"z": 165.8784},
-				"stretch": {"x":0.7273,"y": 0.3,"z":0.5},
+				"stretch": {"x":0.7273,"y": 0.3,"z":0.3},
 				"isRelativeToParent": false,
 				"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FlapjackCavern/Interactables_FlapjackCavern"
 			},
 			{
 				"rename":"WaterfallSplash 3",
-				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Effects_NomaiCrater/WaterFall_BigMountain_Tall/WaterfallSplash (5)",
-				"position":{"x": -2.3604,"y": -89.7222,"z": 61.9145},
-				"rotation": {"x": 347.9923, "y": 72.2754,"z": 146.6663},
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_SecretEntrance/Effects_SecretEntrance/WaterFall (1)/WaterfallSplash",
+				"position":{"x": -2.8466,"y": -90.3742,"z": 64.0079},
+				"rotation": {"x": 20.2726, "y": 241.8291,"z": 208.7882},
 				"isRelativeToParent": false,
 				"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FlapjackCavern/Interactables_FlapjackCavern"
 			},
@@ -344,8 +348,25 @@
 				"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_Forum/Interactables_Forum"
 			},
 
-
-
+			{
+				"rename":"waterfall highenergy stopper",
+				"assetBundle": "planets/bundle/felix",
+				"path":"assets/nomai ruins/waterfall clear.prefab",
+				"position":{"x": 2.1714,"y": -8.5385,"z": -16.316},
+				"rotation": {"x":312.0757,"y": 196.0527,"z": 174.4016},
+				"stretch": {"x":0.6,"y": 0.6,"z":0.6},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilPath/Interactables_FossilPath"
+			},
+			{
+				"rename":"WaterfallSplash 1",
+				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Effects_NomaiCrater/WaterFall_BigMountain_Tall/WaterfallSplash (5)/",
+				"position":{"x": 4.0558,"y": -9.8413,"z": -19.2728},
+				"rotation": {"x": 36.2581, "y": 278.562,"z": 136.0392},
+				"isRelativeToParent": false,
+				"scale": 1,
+				"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilPath/Interactables_FossilPath"
+			},
 
 
 
@@ -558,6 +579,19 @@
 	"isRelativeToParent": true
 },
 
+{
+	"rename": "High Energy Path noise",
+	"audio": "planets/assets/waterfall.ogg",
+	"maxDistance": 40,
+	"minDistance": 1,
+	"volume": 0.3,
+	"track": "environment",
+	"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilPath/Interactables_FossilPath/WaterfallSplash 1",
+	"position":{"x":0,"y":10,"z":0},
+	"isRelativeToParent": true
+},
+
+
 			{
 				"audio": "planets/assets/waterfall.ogg",
 				"maxDistance": 30,
@@ -565,7 +599,7 @@
 				"volume": 0.3,
 				"track": "environment",
 				"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_EscapePodPath/Interactables_EscapePodPath/WaterfallSplash 1",
-				"position":{"x":0,"y":0,"z":0},
+				"position":{"x":0,"y":30,"z":0},
 				"isRelativeToParent": true
 			},
 			{
@@ -575,7 +609,7 @@
 				"volume": 0.3,
 				"track": "environment",
 				"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_EscapePodPath/Interactables_EscapePodPath/WaterfallSplash 2",
-				"position":{"x":0,"y":0,"z":0},
+				"position":{"x":0,"y":39.1436,"z":0},
 				"isRelativeToParent": true
 			},
 
@@ -592,12 +626,12 @@
 			},
 			{
 				"audio": "planets/assets/waterfall.ogg",
-				"maxDistance": 30,
+				"maxDistance": 60,
 				"minDistance": 1,
-				"volume": 0.3,
+				"volume": 0.5,
 				"track": "environment",
 				"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FlapjackCavern/Interactables_FlapjackCavern/WaterfallSplash 2",
-				"position":{"x":0,"y":0,"z":0},
+				"position":{"x":0,"y":25,"z":0},
 				"isRelativeToParent": true
 			},
 			{
@@ -646,9 +680,9 @@
 			{
 				"rename":"big city splash noise",
 				"audio": "planets/assets/waterfall.ogg",
-				"maxDistance": 30,
+				"maxDistance": 70,
 				"minDistance": 1,
-				"volume": 0.3,
+				"volume": 0.5,
 				"track": "environment",
 				"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/WaterfallSplash 2",
 				"position":{"x":0,"y":0,"z":0},
