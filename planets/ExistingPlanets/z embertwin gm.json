@@ -46,13 +46,7 @@
 	
 	"details": [
 	
-		{
-			"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter",
-			"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/city eye gm base",
-			"position": {"x":9.4089,"y":20.0019,"z":-13.6341},
-			"rotation": {"x":2.1401,"y":338.8161,"z":16.9002},
-			"isRelativeToParent": true
-		},
+		
 
 		{
 			"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_CannonPath/Interactables_CannonPath/DarkMatter/Effects_GM_AuroraWisps",

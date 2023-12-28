@@ -48,7 +48,9 @@
 
 		"Sector_CaveTwin/Sector_SouthHemisphere/Sector_CannonPath/Interactables_CannonPath/DarkMatter/DarkMatterVolume",
 		"Sector_CaveTwin/Sector_SouthHemisphere/Sector_CannonPath/Interactables_CannonPath/DarkMatter/DarkMatterVolume (1)",
-		"Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter",
+		"Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume",
+		"Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (1)",
+		"Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (2)",
 
 		"Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
 		"Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (1)",
@@ -108,15 +110,68 @@
 				"position": {"x":30.35,"y": -117.3,"z": -55.01},
 				"isRelativeToParent": true
 			},
+
+
+
+
 			{
 				"type": "ghostMatter",
-				"radius": 0.5,
-				"rename":"city eye gm base",
+				"radius": 8,
+				"rename":"city eye gm",
 				"damagePerSecond": 50,
-				"position": {"x":40.3621,"y": -105.7219,"z": -0.0032},
-				"isRelativeToParent": false,
-				"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict"
+				"position": {"x":51.5205,"y": -94.5903,"z": -15.4513},
+				"isRelativeToParent": true
 			},
+			{
+				"type": "ghostMatter",
+				"radius": 8,
+				"rename":"city eye gm 2",
+				"damagePerSecond": 50,
+				"position": {"x":55.0086,"y": -94.429,"z": -8.9984},
+				"isRelativeToParent": true
+			},
+			{
+				"type": "ghostMatter",
+				"radius": 8,
+				"rename":"city eye gm 3",
+				"damagePerSecond": 50,
+				"position": {"x":52.0286,"y": -96.8648,"z": -1.27},
+				"isRelativeToParent": true
+			},
+			{
+				"type": "ghostMatter",
+				"radius": 8,
+				"rename":"city eye gm 4",
+				"damagePerSecond": 50,
+				"position": {"x":43.3377,"y": -99.323,"z": -0.1173},
+				"isRelativeToParent": true
+			},
+			{
+				"type": "ghostMatter",
+				"radius": 8,
+				"rename":"city eye gm 5",
+				"damagePerSecond": 50,
+				"position": {"x":52.0285,"y": -96.8648,"z": -1.27},
+				"isRelativeToParent": true
+			},
+			{
+				"type": "ghostMatter",
+				"radius": 8,
+				"rename":"city eye gm 6",
+				"damagePerSecond": 50,
+				"position": {"x":38.3323,"y": -99.6011,"z": -7.0191},
+				"isRelativeToParent": true
+			},
+			{
+				"type": "ghostMatter",
+				"radius": 8,
+				"rename":"city eye gm 7",
+				"damagePerSecond": 50,
+				"position": {"x":34.5996,"y": -101.1611,"z": 5.6209},
+				"isRelativeToParent": true
+			},
+
+
 
 			{
 				"type": "ghostMatter",
