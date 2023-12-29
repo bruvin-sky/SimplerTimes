@@ -21,12 +21,12 @@ Added a tractor beam controller to enter/exit the Hanging City from the north po
 
 
 
-* Ancient lakes on the Hourglass Twins have resurfaced and washed away its sand, along with sand streams underground
+* Ancient lakes on the Hourglass Twins have resurfaced and washed away its sand, and replaced sand streams underground
 
 Removed overgrown cacti blocking lower Sunless City entrance from Gravity Cannon
 Added a light source to the fossil fish's lure
 Fixed a broken roof on a tower on Ash Twin
-Holes in a tower's floors have been patched up
+Holes in the floors of a tower on Ash Twin have been patched up
 Sun Station catwalk now remains intact to walk on
 
 
