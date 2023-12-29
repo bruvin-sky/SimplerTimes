@@ -5,6 +5,8 @@
 
 	"name": "Ash Twin",
 
+
+	
 	"removeChildren": [
 		"SandSphere_Draining",
 		"Sector_TowerTwin/Sector_Tower_SS/Interactables_Tower_SS/Tower_SS_VisibleFrom_TowerTwin/Doors/Prefab_NOM_RotatingDoor_Broken",
@@ -110,7 +112,7 @@
 				"assetBundle": "planets/bundle/felix",
 				"path":"assets/nomai ruins/prefabs/floor.prefab",
 				"position": {"x": 113.0281,"y": -6.3296,"z": -75.6321},
-				"rotation": {"x": 0.2138,"y": 32.8032,"z": 0.0246},
+				"rotation": {"x": 0.2138,"y": 31.9714 ,"z": 270.8541},
 				"scale": 3,
 				"isRelativeToParent": true
 			},
