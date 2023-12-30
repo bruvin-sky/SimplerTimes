@@ -16,7 +16,9 @@ But ***several critical things are made trivially accessible by this mod*** sinc
 * Volcanic weather has calmed on Brittle Hollow
 
 The Hanging City's vertical gravity highway has been fixed
+
 Gravity pathway up to the Tower of Quantum Knowledge has been fixed
+
 Added a tractor beam controller to enter/exit the Hanging City from the north pole surface
 
 
@@ -24,14 +26,19 @@ Added a tractor beam controller to enter/exit the Hanging City from the north po
 * Ancient lakes on the Hourglass Twins have resurfaced and washed away its sand, and replaced sand streams underground
 
 Removed overgrown cacti blocking lower Sunless City entrance from Gravity Cannon
+
 Added a light source to the fossil fish's lure
+
 Fixed a broken roof on a tower on Ash Twin
+
 Holes in the floors of a tower on Ash Twin have been patched up
+
 Sun Station catwalk now remains intact to walk on
 
 
 
 * Orbital Probe Cannon now remains intact and no longer loses one of its modules (note: disregard a certain Nomai computer diagram)
+
 Added a Hearthian flag to the core of a planet
 
 * Several broken, one-way rotating doors have been fixed
