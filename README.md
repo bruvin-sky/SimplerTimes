@@ -9,6 +9,7 @@ But ***several critical things are made trivially accessible by this mod*** sinc
 
 ..Uuunless you're feeling straight-up done with the game already - in which case, I hope this mod will help give you a simpler time exploring and enjoying this beautiful world!
 
+![Screenshot 2023-12-29 075912](https://github.com/bruvin-sky/SimplerTimes/assets/42091830/72ce34a9-79c6-4c0f-b73d-32bade4e1da8)
 
 
 ## CHANGELOG:
