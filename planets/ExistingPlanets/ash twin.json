@@ -66,7 +66,7 @@
 				"value": 30
 			}
 		],
-		"buoyancy": 1.63,
+		"buoyancy": 1.65,
 		"size": 1,
 		"tint": {
 			"r": 0,
@@ -136,7 +136,7 @@
 			{
 				"path": "QuantumMoon_Body/Volumes/SunOverrideVolume",
 				"parentPath": "Sector_TowerTwin/Water",
-				"scale":0.0096
+				"scale":0.00957
 			},
 
 

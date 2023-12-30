@@ -25,16 +25,18 @@
 		"details": [
 			{
 				"rename":"BHF copper left",
-				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_BH/Props_Tower_BH/OtherComponentsGroup/Structure_NOM_WarpReceiver_CopperSymbol",
-				"position": {"x": -0.7406,"y": 262.6533,"z": 66.6999},
-				"rotation": {"x": 304.4919,"y": 71.7772,"z": 291.9219},
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Interactables_HangingCity_Entrance/Prefab_NOM_Tablet (2)/Mural_WarpReceiver",
+				"position": {"x": -0.7185,"y": 262.4653,"z": 65.0172},
+				"rotation": {"x": 313.9483,"y": 75.8876,"z": 289.7258},
+				"stretch": {"x":8,"y":8,"z":5},
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"BHF copper right",
-				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_BH/Props_Tower_BH/OtherComponentsGroup/Structure_NOM_WarpReceiver_CopperSymbol",
-				"position": {"x": 15.9511,"y": 262.6533,"z": 66.5083},
-				"rotation": {"x": 51.469,"y": 252.2881,"z": 68.2367},
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Interactables_HangingCity_Entrance/Prefab_NOM_Tablet (2)/Mural_WarpReceiver",
+				"position": {"x": 16.0543,"y": 262.4326,"z": 64.8754},
+				"rotation": {"x": 22.5843 ,"y": 95.9758,"z": 284.3398},
+				"stretch": {"x":8,"y":8,"z":5},
 				"isRelativeToParent": true
 			},
 
@@ -62,6 +64,7 @@
 				"parentPath": "Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance",
 				"position": {"x":0,"y": 0 ,"z": 0},
 				"rotation": {"x":0,"y": 0 ,"z": 0},
+				"stretch": {"x":1,"y":1.0001,"z":1},
 				"isRelativeToParent": true
 			},
 			{
