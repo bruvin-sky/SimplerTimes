@@ -1,0 +1,40 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB/>
+		<Text>YARROW: I have exciting news, Privet: The <![CDATA[<color=orange>Ash Twin Project</color>]]> is almost prepared to receive the probe data from the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB/>
+		<Text>YARROW: Ramie is adding some finishing touches here, but she’ll be finished soon. Are you and the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> well?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA/>
+		<Text>PRIVET: We are! The statue here in the<![CDATA[<color=orange> Probe Tracking Module </color>]]>is ready to record each launch’s flight trajectory and will automatically transmit all relevant data to you.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA/>
+		<Text>PRIVET: Once the probe determines the location of the <![CDATA[<color=lightblue>Eye of the universe</color>]]>, I’ll send an alert directly to you and Ramie.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<LocationA/>
+		<Text>PRIVET: On the other appendage, I’m now worried about this <![CDATA[<color=orange>cannon</color>]]>’s structural integrity and its crew’s moral integrity.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<LocationA/>
+		<RevealFact>
+			<FactID>OPC_SUNKEN_MODULE_X3</FactID>
+			<Condition>1, 3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

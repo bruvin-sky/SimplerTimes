@@ -1,0 +1,49 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA/>
+		<Text>MALLOW: Imagine, Privet: the <![CDATA[<color=orange>Probe Tracking Module</color>]]> will be the first to know the coordinates of the <![CDATA[<color=lightblue>Eye of the universe</color>]]>! You’ll be the first to see them!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB/>
+		<Text>PRIVET: I am honored and terrified!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB/>
+		<Text>PRIVET: You won’t ask the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> to use so much power that it breaks, will you?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA/>
+		<Text>MALLOW: Fret not, my nervous friend! We only need to fire the probe once, anyway, so who minds if it compromises the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]>’s structural integrity slightly?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB/>
+		<Text>PRIVET: I would mind, Mallow! I would mind, because we won’t be capable of receiving our probe’s data if the <![CDATA[<color=orange>Probe Tracking Module</color>]]> is destroyed!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<LocationA/>
+		<RevealFact>
+			<FactID>OPC_BROKEN_MODULE_X2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>OPC_BROKEN_MODULE_X3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>OPC_SUNKEN_MODULE_R4</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

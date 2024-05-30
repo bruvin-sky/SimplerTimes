@@ -1,0 +1,60 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "Angler Nest Dimension",
+	"removeChildren": ["Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/Anglerfish_Body"],
+	"Props": {
+		"details": [
+			{
+				"rename":"mini anglerfish",
+				"path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/Anglerfish_Body",
+				"position": {"x":-794.4001,"y": 99.1992,"z": -120.9002},
+				"rotation": {"x":72.3625,"y": 352.2872,"z": 320.41},
+				"parentPath": "Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED",
+				"isRelativeToParent": true,
+				"scale":0.05,
+				"removeChildren": ["JawsOfDestruction"]
+			},
+			{
+				"rename":"mini anglerfish",
+				"path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/Anglerfish_Body",
+				"position": {"x":440.3003,"y": -153.8008,"z": 206.1},
+				"rotation": {"x":342.148,"y": 244.0066,"z": 0.4189},
+				"parentPath": "Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED",
+				"isRelativeToParent": true,
+				"scale":0.05,
+				"removeChildren": ["JawsOfDestruction"]
+			},
+			{
+				"rename":"mini anglerfish",
+				"path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/Anglerfish_Body",
+				"position": {"x":-664.7998,"y": -36.1992,"z": 67.6998},
+				"rotation": {"x":303.3471,"y": 204.7929,"z": 19.4356},
+				"parentPath": "Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED",
+				"isRelativeToParent": true,
+				"scale":0.05,
+				"removeChildren": ["JawsOfDestruction"]
+			},
+			{
+				"rename":"mini anglerfish",
+				"path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/Anglerfish_Body",
+				"position": {"x":-826.7001,"y": 195.3008,"z": 71.5002},
+				"rotation": {"x":58.3788,"y": 232.0996,"z": 24.8601},
+				"parentPath": "Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED",
+				"isRelativeToParent": true,
+				"scale":0.05,
+				"removeChildren": ["JawsOfDestruction"]
+			},
+			{
+				"rename":"mini anglerfish",
+				"path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/Anglerfish_Body",
+				"position": {"x":-162.4,"y": -193.5996,"z": -428.1998},
+				"rotation": {"x":336.1143,"y": 19.9898,"z": 230.7361},
+				"parentPath": "Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED",
+				"isRelativeToParent": true,
+				"scale":0.05,
+				"removeChildren": ["JawsOfDestruction"]
+			}
+		]
+	}
+}

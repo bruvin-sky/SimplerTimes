@@ -8,8 +8,8 @@
 
 	
 	"removeChildren": [
-		"SandSphere_Draining",
 		"Sector_TowerTwin/Sector_Tower_SS/Interactables_Tower_SS/Tower_SS_VisibleFrom_TowerTwin/Doors/Prefab_NOM_RotatingDoor_Broken",
+		"Sector_TowerTwin/Sector_Tower_SS/Interactables_Tower_SS/Prefab_NOM_Computer",
 
 		"Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors/Prefab_NOM_RotatingDoor",
 		"Sector_TowerTwin/SS down beam/Props_NOM_SmallTractorBeam",

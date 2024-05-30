@@ -1,0 +1,20 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "Hub Dimension",
+	"removeChildren": ["Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body"],
+	"Props": {
+		"details": [
+			{
+				"rename":"mini anglerfish",
+				"path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body",
+				"position": {"x":-57.8,"y": -86.4004,"z": 15.6001},
+				"rotation": {"x":313.5235,"y": 78.3686,"z": 7.5113},
+				"parentPath": "Sector_HubDimension/Interactables_HubDimension",
+				"isRelativeToParent": true,
+				"scale":0.05,
+				"removeChildren": ["JawsOfDestruction"]
+			}
+		]
+	}
+}

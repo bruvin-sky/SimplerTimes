@@ -5,7 +5,7 @@
 
 "removeChildren": [
 	
-
+"Sector_OrbitalProbeCannon/ProbeTracker Module/Interactables_Module_Sunken/Prefab_NOM_RemoteViewer (1)",
 	"Sector_OrbitalProbeCannon/Effects_OrbitalProbeCannon",
 	"Sector_OrbitalProbeCannon/Interactables_OrbitalProbeCannon/Interactables_VisibleOrbitalProbeCannon/OPC_Connector_Broken_BrokenPiece (1)",
 	"Sector_OrbitalProbeCannon/Lighting_OrbitalProbeCannon/FillLight_Entryway",
@@ -21,7 +21,6 @@
 	"Sector_OrbitalProbeCannon/Launch Module/Interactables_Module_Intact/Prefab_NOM_SharedStone_ConstructionYard",
 
 	"Sector_OrbitalProbeCannon/ProbeTracker Module/Interactables_Module_Sunken/Prefab_NOM_SharedStone_BrokenModule",
-	"Sector_OrbitalProbeCannon/ProbeTracker Module/Interactables_Module_Sunken/Prefab_NOM_RemoteViewer (1)",
 	"Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/Prefab_NOM_SharedStone_BrokenModule",
 
 	"Sector_OrbitalProbeCannon/ProbeTracker Module/Interactables_GDCore/Prefab_NOM_Airlock/AirlockOxygenVolume",
@@ -35,16 +34,17 @@
 		
 	"remotes": [
 
-		{"id": "Launch Module",
+		{"id": "GD_ProbeCannonDamagedModule",
 		"decalPath": "planets/assets/opc broken projection decal.png",
-		"platform":
-		{
-			"rename": "Launch Module pool",
+		
+		"platform": 
+	{
+		"rename": "Launch Module pool",
 			"position": {"x":0,"y": 8.7505 ,"z": 0},
 			"rotation": {"x":0,"y": 0,"z": 180},
 			"isRelativeToParent": true,
 			"parentPath": "Sector_OrbitalProbeCannon/Launch Module/Interactables_Module_Intact"
-		},
+	},
 		"stones":
 		[{
 			"rename": "Launch Module Stone",
@@ -54,9 +54,9 @@
 			"parentPath": "Sector_OrbitalProbeCannon/ProbeTracker Module/Interactables_Module_Sunken"
 		},
 		{
-			"rename": "Launch Module Stone IntactModule",
-			"position": {"x":8.0904,"y": 59.932,"z": 6.1491},
-			"rotation": {"x":8.3614,"y": 0,"z": 90},
+			"rename": "Launch Stone inside IntactModule",
+			"position": {"x":-9.304,"y": 8.108,"z": -2.774},
+			"rotation": {"x":359.2437,"y": 350.276,"z": 179.0609},
 			"isRelativeToParent": false,
 			"parentPath": "Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact"
 		}
@@ -64,10 +64,9 @@
 	},
 
 
-	{"id": "Probe Tracking Module",
+	{"id": "GD_ProbeCannonSunkenModule",
 	"decalPath": "planets/assets/ptm icon.png",
-	"platform":
-	{
+	"platform": {
 		"rename": "PTM Module ATM Machine pool",
 		"position": {"x":0,"y": 8.75 ,"z": 0},
 		"rotation": {"x":0,"y": 0,"z": 180},
@@ -83,15 +82,16 @@
 	}]
 },
 
-	
+
 	{"id": "GD_ProbeCannonIntactModule",
 	"decalPath": "planets/assets/opc projection decal.png",
 	"stones":
 	[{
-		"rename": "Intact Stone",
-		"position": {"x":-55.027, "y": -22.9015,"z": 7.1183},
-		"rotation": {"x":2.3739,"y": 355.8824,"z": 209.9146},
-		"isRelativeToParent": true
+		"rename": "Intact Stone inside Launch module",
+		"position": {"x":-2.7133, "y": 8.0725,"z": 9.5155},
+		"rotation": {"x":3.458,"y": 341.1509,"z": 180.9351},
+		"isRelativeToParent": true,
+		"parentPath": "Sector_OrbitalProbeCannon/Launch Module/Interactables_Module_Intact"
 	}]
 }
 	],
@@ -163,7 +163,8 @@
 				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact",
 				"position": {"x":0,"y": -30,"z": 51.9616},
 				"rotation": {"x":300,"y": 0,"z": 0},
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"keepLoaded": true
 			},
 			{
 				"rename":"Launch Module whiteboard replaced",
@@ -187,6 +188,7 @@
 				"position": {"x":0,"y": 0,"z": 0},
 				"isRelativeToParent": true
 			},
+			
 
 
 			
@@ -195,7 +197,8 @@
 				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken",
 				"position": {"x":-4.9343,"y": -26.4012,"z": -50.6157},
 				"rotation": {"x": 63.6294,"y": 4.1447,"z": 355.1451},
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"keepLoaded": true
 			},
 			{
 				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Broken/Interactables_OrbitalProbeCannon/Prefab_NOM_Airlock",

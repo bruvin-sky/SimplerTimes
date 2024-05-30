@@ -1,0 +1,30 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "Escape Pod Dimension",
+	"removeChildren": ["Sector_EscapePodDimension/Interactables_EscapePodDimension/UNSORTED/Anglerfish_Body"],
+	"Props": {
+		"details": [
+			{
+				"rename":"mini anglerfish",
+				"path": "DB_EscapePodDimension_Body/Sector_EscapePodDimension/Interactables_EscapePodDimension/UNSORTED/Anglerfish_Body/",
+				"position": {"x": -220,"y": -411,"z": 505.0002},
+				"rotation": {"x":319.1751,"y": 153.6135,"z": 46.8976},
+				"parentPath": "Sector_EscapePodDimension/Interactables_EscapePodDimension/UNSORTED",
+				"isRelativeToParent": true,
+				"scale":0.05,
+				"removeChildren": ["JawsOfDestruction"]
+			},
+			{
+				"rename":"mini anglerfish",
+				"path": "DB_EscapePodDimension_Body/Sector_EscapePodDimension/Interactables_EscapePodDimension/UNSORTED/Anglerfish_Body/",
+				"position": {"x": 438.0003,"y": 267,"z": -477.9995},
+				"rotation": {"x":19.6011,"y": 315.2905,"z": 348.5811},
+				"parentPath": "Sector_EscapePodDimension/Interactables_EscapePodDimension/UNSORTED",
+				"isRelativeToParent": true,
+				"scale":0.05,
+				"removeChildren": ["JawsOfDestruction"]
+			}
+		]
+	}
+}

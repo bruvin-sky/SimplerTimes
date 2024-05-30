@@ -5,7 +5,8 @@
 
 "removeChildren": [
 	"Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken_HideFromProjectionPool",
-	"Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken"
+	"Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken",
+	"Sector_GD/Sector_GDInterior/Tornadoes_GDInterior/MovingTornadoes"
 ],
 
 

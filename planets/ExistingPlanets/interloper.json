@@ -1,0 +1,23 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	
+
+	"name": "Interloper",
+
+"removeChildren": [
+	"Sector_CO/Sector_CometInterior/Interactables_CometInterior/DarkMatter_KillVolumes",
+	"Sector_CO/Sector_CometInterior/Interactables_CometInterior/DarkMatterVolume",
+	"Sector_CO/Sector_CometInterior/Interactables_CometInterior/DarkMatterVolume (1)",
+	"Sector_CO/Sector_CometInterior/Effects_CometInterior/Effects_GM_AuroraWisps",
+
+	"Sector_CO/Geometry_CO/MeltingIce/Effects_CO_MeltingIceCrack_Collision",
+	"Comet_Body/Sector_CO/Geometry_CO/MeltingIce/Effects_CO_MeltingIceCrack"
+],
+	
+	"Props": {
+		"details": [
+			
+		]
+	}
+}
