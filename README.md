@@ -4,7 +4,7 @@ Simpler Times is a mod I made to vent, just wanting to see some Nomai structures
 
 Starting with rebuilding the Orbital Probe Cannon, returning a module to the cannon made me wonder about maybe going a little further and making a mod that just fixed up a bunch of broken things - and by extension, made a more casual, new game plus version of the game.
 
-This mod also does away with the timed elements on Brittle Hollow, and to an extent, on the Hourglass Twins - so if you struggled with those and are for some reason, surfing the mod list without having finished the game, this mod could help.
+This mod does away with most timed elements in the star system and some elements that may have made the game stressful with the goal of making it more accessible.
 But ***several critical things are made trivially accessible by this mod*** since the point was to present a prettier, more logically accessible version of the world - so I'd suggest finding another mod to help out your journey!
 
 ..Uuunless you're feeling straight-up done with the game already - in which case, I hope this mod will help give you a simpler time exploring and enjoying this beautiful world!
@@ -13,6 +13,9 @@ But ***several critical things are made trivially accessible by this mod*** sinc
 
 
 ## CHANGELOG:
+
+* The Sun never changes throughout the loop, sparing two things that would have crashed into it
+
 
 * Volcanic weather has calmed on Brittle Hollow
 
@@ -38,8 +41,13 @@ Sun Station catwalk now remains intact to walk on
 
 
 
-* Orbital Probe Cannon now remains intact and no longer loses one of its modules (note: disregard a certain Nomai computer diagram)
+* Roaming cyclones on Giant's Deep's equator have died down
+
+Orbital Probe Cannon now remains intact and no longer loses one of its modules (note: disregard a certain Nomai computer diagram)
 
 Added a Hearthian flag to the core of a planet
 
-* Several broken, one-way rotating doors have been fixed
+
+* Dark Bramble's inhabitants now match the size of the Timber Hearth exhibit
+
+* Several broken, one-way rotating doors across the star system have been fixed
