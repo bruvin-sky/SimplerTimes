@@ -4,7 +4,7 @@
   "author": "atk",
   "name": "Simpler Times",
   "uniqueName": "atk.IntactMod2",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "owmlVersion": "2.9.8",
   "dependencies": ["xen.NewHorizons"]
 }
