@@ -32,19 +32,19 @@
 				"value": 0
 			},
 			{
-				"time": 2,
+				"time": 1.5,
 				"value": 0
 			},
 			{
-				"time": 2.85,
+				"time": 2,
 				"value": 1
 			},
 			{
-				"time": 20.15,
+				"time": 21.5,
 				"value": 1
 			},
 			{
-				"time": 21,
+				"time": 22,
 				"value": 0
 			}
 		]
@@ -62,8 +62,18 @@
 				"value": 165
 			},
 			{
-				"time": 21,
-				"value": 30
+				"time": 22,
+				"value": 10
+			},
+
+			
+			{
+				"time": 24,
+				"value": 10
+			},
+			{
+				"time": 44,
+				"value": 165
 			}
 		],
 		"buoyancy": 1.65,

@@ -43,17 +43,17 @@
 			{
 				"rename":"BH Gravity floor volume left",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Volumes_HangingCity_Entrance/GravityVolume (6)",
-				"position": {"x": 0.9582,"y": 203.1548,"z": 48.5947},
+				"position": {"x": -0.4709,"y": 203.1548,"z": 48.5947},
 				"rotation": {"x": 283.54,"y": 6.7603,"z": 83.8234},
-				"stretch": {"x":1,"y":1,"z":1.5},
+				"stretch": {"x":1,"y":1.5,"z":1.5},
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"BH Gravity floor volume right",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Volumes_HangingCity_Entrance/GravityVolume (6)",
-				"position": {"x": 11.6227,"y": 207.0776,"z": 49.1927},
+				"position": {"x": 12.4809,"y": 207.0776,"z": 49.1927},
 				"rotation": {"x": 283.5401,"y": 6.7603,"z": 263.8234},
-				"stretch": {"x":1,"y":1,"z": 1.5},
+				"stretch": {"x":1,"y":1.5,"z": 1.5},
 				"isRelativeToParent": true
 			},
 
@@ -62,7 +62,7 @@
 				"assetBundle": "planets/bundle/felix",
 				"path":"assets/nomai ruins/prefabs/repaired_entrance (1).prefab",
 				"parentPath": "Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance",
-				"position": {"x":0,"y": 0 ,"z": 0},
+				"position": {"x":0,"y": 0 ,"z": 0.003},
 				"rotation": {"x":0,"y": 0 ,"z": 0},
 				"stretch": {"x":1,"y":1.0001,"z":1},
 				"isRelativeToParent": true

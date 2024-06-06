@@ -55,8 +55,8 @@
 		},
 		{
 			"rename": "Launch Stone inside IntactModule",
-			"position": {"x":-9.304,"y": 8.108,"z": -2.774},
-			"rotation": {"x":359.2437,"y": 350.276,"z": 179.0609},
+			"position": {"x":6.9606 ,"y": 60.3662,"z": -7.6802},
+			"rotation": {"x":42.1391,"y": 90,"z": 90},
 			"isRelativeToParent": false,
 			"parentPath": "Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact"
 		}
@@ -184,8 +184,7 @@
 			{
 				"rename":"Launch Module fill light",
 				"path": "QuantumIsland_Body/Sector_QuantumIsland/Lighting_QuantumTower/OtherComponentsGroup/FillLight_NOM_QuantumTowerCave",
-				"parentPath": "Sector_OrbitalProbeCannon/Launch Module",
-				"position": {"x":0,"y": 0,"z": 0},
+				"position": {"x":0.0004,"y": -29.9993,"z": 51.9611},
 				"isRelativeToParent": true
 			},
 			
@@ -198,13 +197,20 @@
 				"position": {"x":-4.9343,"y": -26.4012,"z": -50.6157},
 				"rotation": {"x": 63.6294,"y": 4.1447,"z": 355.1451},
 				"isRelativeToParent": true,
-				"keepLoaded": true
+				"keepLoaded": true,
+				"removeChildren": ["Lighting_Module_Sunken/FillLight_SunkenModule"]
 			},
 			{
 				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Broken/Interactables_OrbitalProbeCannon/Prefab_NOM_Airlock",
 				"parentPath": "Sector_OrbitalProbeCannon/ProbeTracker Module/Interactables_GDCore",
 				"position": {"x":0,"y":0,"z": -20},
 				"rotation": {"x":0,"y":270,"z":0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"PTM fill light",
+				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/ProbeTracker Module/Lighting_Module_Sunken/FillLight_SunkenModule",
+				"position": {"x":-4.9344,"y": -26.4016,"z": -50.6155},
 				"isRelativeToParent": true
 			}
 

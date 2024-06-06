@@ -10,6 +10,22 @@
 	"details": [
 		
 		{
+			"rename":"SS docking station",
+			"path":"QuantumIsland_Body/Sector_QuantumIsland/Interactables_QuantumTower/Prefab_NOM_DockingTractorBeam/",
+			"position":{"x":-73.1123,"y": 45.1373,"z": 0.0691},
+			"rotation": {"x":0,"y":16.1829,"z":0},
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"SS hotshot achievement test",
+			"path":"QuantumIsland_Body/Sector_QuantumIsland/Interactables_QuantumTower/Prefab_NOM_DockingTractorBeam/",
+			"position":{"x":-72.6818,"y": 45.7006,"z": -0.5123},
+			"rotation": {"x":0,"y":134.0523,"z":0},
+			"isRelativeToParent": true
+		},
+
+		{
 			"rename":"SS Bridge 1B wall",
 			"path":"Structure_NOM_SunStation_Debris_Small/wall",
 			"position":{"x":-58.3104,"y": 1.7537,"z": -0.9815},

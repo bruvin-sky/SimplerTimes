@@ -59,6 +59,41 @@
 
 		
 	],
+	"Funnel": {
+		"type": "water",
+		
+		"target": "Ash Twin",
+		"tint": {
+			"r": 0,
+			"g": 51,
+			"b": 102,
+			"a": 20
+		},
+		"curve": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 23.5,
+				"value": 0
+			},
+			{
+				"time": 24,
+				"value": 1
+			},
+			{
+				"time": 43.5,
+				"value": 1
+			},
+			{
+				"time": 44,
+				"value": 0
+			}
+		]
+	},
+
+
 	"Water": {
 		"curve": [
 			{
@@ -70,8 +105,17 @@
 				"value": 10
 			},
 			{
-				"time": 21,
+				"time": 22,
 				"value": 155
+			},
+
+			{
+				"time": 24,
+				"value": 155
+			},
+			{
+				"time": 44,
+				"value": 10
 			}
 		],
 		"buoyancy": 1.63,
@@ -235,7 +279,7 @@
 				"path":"assets/nomai ruins/waterfall clear.prefab",
 				"position":{"x": -42.9219,"y": -25.6831,"z": 49.7097},
 				"rotation": {"x":45.8254,"y": 194.5399,"z": 224.7592},
-				"stretch": {"x":0.2,"y": 1,"z":0.2},
+				"stretch": {"x":0.2,"y": 0.8,"z":0.2},
 				"isRelativeToParent": false,
 				"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FlapjackCavern/Interactables_FlapjackCavern"
 			},

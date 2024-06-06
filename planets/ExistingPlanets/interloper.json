@@ -5,14 +5,18 @@
 
 	"name": "Interloper",
 
+
 "removeChildren": [
 	"Sector_CO/Sector_CometInterior/Interactables_CometInterior/DarkMatter_KillVolumes",
 	"Sector_CO/Sector_CometInterior/Interactables_CometInterior/DarkMatterVolume",
 	"Sector_CO/Sector_CometInterior/Interactables_CometInterior/DarkMatterVolume (1)",
 	"Sector_CO/Sector_CometInterior/Effects_CometInterior/Effects_GM_AuroraWisps",
 
+	"Sector_CO/Sector_CometInterior/Interactables_CometInterior/DarkMatterNotificationVolume_Entrance",
+	"Sector_CO/Sector_CometInterior/Interactables_CometInterior/DarkMatterNotificationVolume_Slalom",
+
 	"Sector_CO/Geometry_CO/MeltingIce/Effects_CO_MeltingIceCrack_Collision",
-	"Comet_Body/Sector_CO/Geometry_CO/MeltingIce/Effects_CO_MeltingIceCrack"
+	"Sector_CO/Geometry_CO/MeltingIce/Effects_CO_MeltingIceCrack"
 ],
 	
 	"Props": {
