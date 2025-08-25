@@ -18,7 +18,13 @@
 	"Sector_CO/Geometry_CO/MeltingIce/Effects_CO_MeltingIceCrack_Collision",
 	"Sector_CO/Geometry_CO/MeltingIce/Effects_CO_MeltingIceCrack"
 ],
-	
+	"Orbit": {
+		"semiMajorAxis": 13227,
+		"eccentricity": 0.811,
+		"inclination": 30,
+		"trueAnomaly": 180,
+		"primaryBody": "Sun"
+	},
 	"Props": {
 		"details": [
 			

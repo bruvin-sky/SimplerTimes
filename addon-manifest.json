@@ -2,12 +2,14 @@
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
 
      "credits": [
-        "atk#Simpler Times\n#Mod Maker\n#Replacing all the sand funnels was painful\nSo was adjusting the river",
-        "Shoe#Brave Modeler\n Made the remodeled Hanging City Highway!\n#I knew they could do it",
+        "atk#Simpler Times\n#Mod Maker\n#Replacing all the sandfall details and audio was painful but I'm crazy",
+        "Shoe#Goober Modeler\n Made the remodeled Hanging City Highway!\n#They're a cool chap",
         " ",
         "Special Thanks",
-        "Thank you to JohnCorby for spoonfeeding a line of code to me",
-        "And Bird for making orb stuff",
+        
+        "Xen for being an awesome guy and teacher even in semi-retirement",
+        "JohnCorby for spoonfeeding code and being very cool",
+        "And Bird the orb ponderer for making orb stuff!",
         " ",
         "Made with help from the New Horizons modding community",
         "This work is unofficial Fan Content and is not affiliated with Mobius Digital"

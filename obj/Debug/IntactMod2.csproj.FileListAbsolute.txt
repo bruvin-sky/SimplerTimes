@@ -1,0 +1,49 @@
+C:\Games\SimplerTimes\obj\Debug\IntactMod2.csproj.AssemblyReference.cache
+C:\Games\SimplerTimes\obj\Debug\IntactMod2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Games\SimplerTimes\obj\Debug\IntactMod2.AssemblyInfoInputs.cache
+C:\Games\SimplerTimes\obj\Debug\IntactMod2.AssemblyInfo.cs
+C:\Games\SimplerTimes\obj\Debug\IntactMod2.csproj.CoreCompileInputs.cache
+C:\Games\SimplerTimes\obj\Debug\IntactMod2.sourcelink.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\default-config.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\manifest.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\.gitkeep
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\assets\gravcannon.ogg
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\assets\opc broken projection decal.png
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\assets\opc projection decal.png
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\assets\ptm icon.png
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\assets\river.ogg
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\assets\waterfall.ogg
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\bundle\clean houses
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\bundle\clean houses.manifest
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\bundle\felix
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\bundle\felix.manifest
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\ash twin.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\bramble\pioneerdimension.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\brittlehollow.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\embertwin.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\interloper.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\mini stuff\cannon barrel.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\mini stuff\cannon muzzle.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\mini stuff\db anglernest.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\mini stuff\db escapepod.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\mini stuff\db exitonly.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\mini stuff\db hub.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\mini stuff\giantsdeep.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\mini stuff\hollowlantern.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\mini stuff\ss bridge.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\mini stuff\statueisland.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\probecannon.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\sandfunnel.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\stranger.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\sunstation.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\TH.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\translatortext\basegame launch module.xml
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\translatortext\basegame ptm atp.xml
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\waterfunnel test.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\planets\ExistingPlanets\z embertwin gm.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\addon-manifest.json
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\IntactMod2.dll
+C:\Users\User\AppData\Roaming\OuterWildsModManager\OWML\Mods\atk.IntactMod2\IntactMod2.pdb
+C:\Games\SimplerTimes\obj\Debug\IntactMod2.csproj.Up2Date
+C:\Games\SimplerTimes\obj\Debug\IntactMod2.dll
+C:\Games\SimplerTimes\obj\Debug\IntactMod2.pdb

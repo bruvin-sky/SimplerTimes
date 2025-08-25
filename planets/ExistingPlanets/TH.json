@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "Timber Hearth",
+
+"removeChildren": [
+		"Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/BrambleSeed/Prefab_SeedPunctureVolume (2)",
+		"Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/ControlledByProxy_Structures/Terrain_DB_BrambleSphere_Seed_V2/Collider_Probe",
+
+		"Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/ControlledByProxy_Structures/Terrain_DB_BrambleSphere_Seed_V2/Feldspar blackhole/BlackHoleAmbience",
+		"Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/ControlledByProxy_Structures/Terrain_DB_BrambleSphere_Seed_V2/Feldspar blackhole/BlackHoleRenderer",
+		"Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/ControlledByProxy_Structures/Terrain_DB_BrambleSphere_Seed_V2/Feldspar blackhole/BlackHoleEmissionOneShot"
+],
+
+"Props": 
+	{
+	"singularities": 
+		[
+			{
+				"type":"blackHole",
+				"rename":"Feldspar blackhole",
+				"horizonRadius": 2.5,
+				"hasWarpEffects": false,
+				"distortRadius": 1,
+				"pairedSingularity": "Feldspar whitehole",
+				"uniqueID": "TH blackhole",
+				"parentPath": "Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/ControlledByProxy_Structures/Terrain_DB_BrambleSphere_Seed_V2",
+				"position": {"x":1.2159 ,"y": 0.099 ,"z": 0.6767},
+				"isRelativeToParent": true
+			}
+		],
+		"details": 
+		[
+		
+		]
+	}
+}

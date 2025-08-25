@@ -1,0 +1,62 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "Pioneer Dimension",
+"removeChildren": [
+"Sector_PioneerDimension/Interactables_PioneerDimension/SeedWarp_ToPioneer (1)/Prefab_SeedPunctureVolume (2)",
+"Sector_PioneerDimension/Interactables_PioneerDimension/SeedWarp_ToPioneer (1)/Terrain_DB_BrambleSphere_Seed_V2 (2)/Collider_Probe",
+"Sector_PioneerDimension/Interactables_PioneerDimension/SeedWarp_ToPioneer (1)/Terrain_DB_BrambleSphere_Seed_V2 (2)/Collider_Center_Spikes",
+
+"Sector_PioneerDimension/Feldspar whitehole/WhiteHoleAmbience",
+"Sector_PioneerDimension/Feldspar whitehole/WhiteHoleRenderer",
+"Sector_PioneerDimension/Feldspar whitehole loop/WhiteHoleAmbience",
+"Sector_PioneerDimension/Feldspar whitehole loop/WhiteHoleRenderer",
+"Sector_PioneerDimension/Feldspar whitehole maze/WhiteHoleAmbience",
+"Sector_PioneerDimension/Interactables_PioneerDimension/SeedWarp_ToPioneer (1)/Terrain_DB_BrambleSphere_Seed_V2 (2)/Feldspar blackhole loop/BlackHoleRenderer",
+"Sector_PioneerDimension/Interactables_PioneerDimension/SeedWarp_ToPioneer (1)/Terrain_DB_BrambleSphere_Seed_V2 (2)/Feldspar blackhole loop/BlackHoleAmbience",
+"Sector_PioneerDimension/Interactables_PioneerDimension/SeedWarp_ToPioneer (1)/Terrain_DB_BrambleSphere_Seed_V2 (2)/Feldspar blackhole loop/BlackHoleEmissionOneShot"
+],
+
+"Props": {
+	"singularities": [
+		{
+			"type":"whiteHole",
+			"rename":"Feldspar whitehole",
+			"horizonRadius": 0.1,
+			"hasWarpEffects": false,
+			"distortRadius": 1,
+			"pairedSingularity": "TH blackhole",
+			"uniqueID": "Feldspar whitehole",
+			"position": {"x":527.8372,"y": 286.2685,"z": -468.7817},
+			"rotation": {"x":0,"y": 180,"z": 180},
+			"isRelativeToParent": true
+		},
+		{
+			"type":"whiteHole",
+			"rename":"Feldspar whitehole loop",
+			"horizonRadius": 0.1,
+			"hasWarpEffects": false,
+			"distortRadius": 1,
+			"pairedSingularity": "Feldspar blackhole loop",
+			"uniqueID": "Feldspar whitehole loop",
+			"position": {"x":527.8372,"y": 286.2685,"z": -468.7817},
+			"rotation": {"x":0,"y": 180,"z": 180},
+			"isRelativeToParent": true
+		},
+		{
+			"type":"blackHole",
+			"rename":"Feldspar blackhole loop",
+			"horizonRadius": 2.5,
+			"hasWarpEffects": false,
+			"distortRadius": 1,
+			"pairedSingularity": "Feldspar whitehole loop",
+			"uniqueID": "Feldspar blackhole loop",
+			"parentPath": "Sector_PioneerDimension/Interactables_PioneerDimension/SeedWarp_ToPioneer (1)/Terrain_DB_BrambleSphere_Seed_V2 (2)",
+			"position": {"x":1.2159 ,"y": 0.099 ,"z": 0.6767},
+			"isRelativeToParent": true
+		}
+	],
+	"details": [
+	]
+}
+}

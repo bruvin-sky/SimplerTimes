@@ -76,7 +76,7 @@
 				"value": 165
 			}
 		],
-		"buoyancy": 1.65,
+		"buoyancy": 1,
 		"size": 1,
 		"tint": {
 			"r": 0,
@@ -152,8 +152,7 @@
 
 			{
 				"rename":"TH tower Door 1",
-				"assetBundle": "planets/bundle/felix",
-				"path":"assets/nomai ruins/prefabs/orbdoor.prefab",
+				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors/Prefab_NOM_RotatingDoor",
 				"parentPath": "Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors",
 				"position": {"x": 0,"y": 98.33,"z": -16.54},
 				"rotation": {"x":0,"y": 90,"z": 0},
@@ -161,8 +160,7 @@
 			},
 			{
 				"rename":"TH tower Door 2",
-				"assetBundle": "planets/bundle/felix",
-				"path":"assets/nomai ruins/prefabs/orbdoor.prefab",
+				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors/Prefab_NOM_RotatingDoor",
 				"parentPath": "Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors",
 				"position": {"x": 0,"y": 98.33,"z": 16.54},
 				"rotation": {"x":0,"y": 270,"z": 0},
@@ -170,8 +168,7 @@
 			},
 			{
 				"rename":"SS tower Door",
-				"assetBundle": "planets/bundle/felix",
-				"path":"assets/nomai ruins/prefabs/orbdoor.prefab",
+				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors/Prefab_NOM_RotatingDoor",
 				"parentPath": "Sector_TowerTwin/Sector_Tower_SS/Interactables_Tower_SS/Tower_SS_VisibleFrom_TowerTwin/Doors",
 				"position": {"x": 0,"y": 146.17,"z": 11.811},
 				"rotation": {"x":0,"y": 270.0843,"z": 0},

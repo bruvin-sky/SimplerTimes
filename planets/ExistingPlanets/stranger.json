@@ -1,0 +1,94 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	
+
+	"name": "Ringworld",
+
+
+"removeChildren": [
+		"Sector_RingInterior/Sector_Zone1/Interactables_Zone1/GhostMatter_Submergible",
+		"Sector_RingInterior/Sector_Zone3/Interactables_Zone3/GhostMatter_CanyonPath",
+
+		"Sector_RingInterior/Sector_Zone_1to2/Geometry_Zone1to2/BakedTerrain_IP_RWZ1to2_Rocks_B",
+		"Sector_RingInterior/Sector_Zone3/Geometry_Zone3/BakedTerrain_IP_RWZ2to3_Rapids",
+		"Sector_RingInterior/Sector_Zone3/Geometry_Zone3/BakedTerrain_IP_RWZ3_SideC_Rocks",
+		"Sector_RingInterior/Sector_Zone3/Geometry_Zone3/BakedTerrain_IP_RWZ3_SideB_Rocks",
+
+		"Sector_RingInterior/Sector_Zone1/Sector_ProjectionHouse_Zone1/Interactables_ProjectionHouse_Zone1/VisibleFromFar_Interactables_ProjectionHouse_Zone1/Prefab_IP_SlideReelShelf (12)/SlideReelShelf_Row_04/SlideSocket_03/Prefab_IP_Reel_1_Story_Burned",
+		"Sector_RingInterior/Sector_Zone2/Sector_ProjectionHouse_Zone2/Interactables_ProjectionHouse_Zone2/Prefab_IP_SlideReelShelf (7)/SlideReelShelf_Row_04/SlideSocket_03/Prefab_IP_Reel_2_Story_Burned",
+		"Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_ProjectionHouse_Zone3_Interior/Interactables_ProjectionHouse_Zone3/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_04/SlideSocket_03/Prefab_IP_Reel_3_Story_Burned",
+
+
+		"Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Structures_HiddenGorge/MainAxis_C_Zone3/EntranceClueBuilding_Zone3/Interactables_EntranceClueBuilding_Zone3/Prefab_IP_Door_Interface",
+		"Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Prefab_IP_InteractableDoor"
+],
+	
+	"Props": {
+		"details": 
+		[
+			{
+				"rename":"z3 door",
+				"path":"RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Structures_HiddenGorge/MainAxis_C_Zone3/EntranceClueBuilding_Zone3/Interactables_EntranceClueBuilding_Zone3/Prefab_IP_Door_Interface",
+				"position": {"x": 8.1127,"y": -9.0001,"z": -8},
+				"rotation": {"x": 0,"y": 180,"z": 0},
+				"parentPath": "Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Structures_HiddenGorge/MainAxis_C_Zone3/EntranceClueBuilding_Zone3/Interactables_EntranceClueBuilding_Zone3",
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"Z1 intact story reel",
+				"path":"DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_1/Interactibles_SecretLibrary_1/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_04/SlideSocket_03/Prefab_IP_Reel_1_Story_Complete/",
+				"position": {"x": 9.06,"y": 11.7602,"z": -14.9998},
+				"rotation": {"x": 0,"y": 0,"z": 270},
+				"parentPath": "Sector_RingInterior/Sector_Zone1/Sector_ProjectionHouse_Zone1/Interactables_ProjectionHouse_Zone1/",
+				"isRelativeToParent": true
+			},{
+				"rename":"Z1 intact story reel decal",
+				"path":"RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_ProjectionHouse_Zone1/Interactables_ProjectionHouse_Zone1/VisibleFromFar_Interactables_ProjectionHouse_Zone1/Prefab_IP_SlideReelShelf (12)/SlideReelShelf_Row_04/SlideSocket_03/Prefab_IP_Reel_1_Story_Burned/Props_IP_SlideReel_8",
+				"position": {"x": 0,"y": 0,"z":0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"scale": 1.05,
+				"parentPath": "Sector_RingInterior/Sector_Zone1/Sector_ProjectionHouse_Zone1/Interactables_ProjectionHouse_Zone1/Z1 intact story reel/Props_IP_SlideReel_8",
+				"removeChildren": ["Slides_Back"],
+				"isRelativeToParent": true
+			},
+			
+			{
+				"rename":"Z2 intact story reel",
+				"path":"DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_04/SlideSocket_02/Prefab_IP_Reel_2_Story_Complete",
+				"position": {"x": 6.9309,"y": -4.2296,"z": 5.9738},
+				"rotation": {"x": 0,"y": 180,"z": 270},
+				"parentPath": "Sector_RingInterior/Sector_Zone2/Sector_ProjectionHouse_Zone2/Interactables_ProjectionHouse_Zone2",
+				"isRelativeToParent": true
+			},{
+				"rename":"Z2 intact story reel decal",
+				"path":"RingWorld_Body/Sector_RingInterior/Sector_Zone2/Sector_ProjectionHouse_Zone2/Interactables_ProjectionHouse_Zone2/Prefab_IP_SlideReelShelf (7)/SlideReelShelf_Row_04/SlideSocket_03/Prefab_IP_Reel_2_Story_Burned/Props_IP_SlideReel_8",
+				"position": {"x": 0,"y": 0,"z":0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"scale": 1.05,
+				"parentPath": "Sector_RingInterior/Sector_Zone2/Sector_ProjectionHouse_Zone2/Interactables_ProjectionHouse_Zone2/Z2 intact story reel/Props_IP_SlideReel_8",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Z3 intact story reel",
+				"path":"DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_3/Interactibles_SecretLibrary_3/Prefab_IP_SlideReelShelf (30)/SlideReelShelf_Row_03/SlideSocket_01/Prefab_IP_Reel_3_Story_Complete",
+				"position": {"x": -0.94 ,"y": 1.76,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 270},
+				"parentPath": "Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_ProjectionHouse_Zone3_Interior/Interactables_ProjectionHouse_Zone3/Prefab_IP_SlideReelShelf (1)",
+				"isRelativeToParent": true
+			},{
+				"rename":"Z3 intact story reel decal",
+				"path":"RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_ProjectionHouse_Zone3_Interior/Interactables_ProjectionHouse_Zone3/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_04/SlideSocket_03/Prefab_IP_Reel_3_Story_Burned/Props_IP_SlideReel_8",
+				"position": {"x": 0,"y": 0,"z":0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"scale": 1.05,
+				"parentPath": "Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_ProjectionHouse_Zone3_Interior/Interactables_ProjectionHouse_Zone3/Prefab_IP_SlideReelShelf (1)/Z3 intact story reel/Props_IP_SlideReel_8",
+				"isRelativeToParent": true
+			}
+			
+		]
+	}
+}

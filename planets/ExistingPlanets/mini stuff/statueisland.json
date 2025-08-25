@@ -12,8 +12,7 @@
 		"details": [
 			{
 				"rename":"Workshop Door",
-				"assetBundle": "planets/bundle/felix",
-				"path":"assets/nomai ruins/prefabs/orbdoor.prefab",
+				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors/Prefab_NOM_RotatingDoor",
 				"parentPath": "Sector_StatueIsland/Interactables_StatueIsland",
 				"position": {"x":0.23,"y":2.9101,"z":-37.98},
 				"rotation": {"x":359.9077,"y": 88.4144,"z": 356.0721},

@@ -118,7 +118,7 @@
 				"value": 10
 			}
 		],
-		"buoyancy": 1.63,
+		"buoyancy": 1,
 		"size": 1,
 		"tint": {
 			"r": 0,
@@ -222,7 +222,7 @@
 				"radius": 15,
 				"rename":"Energy Lab gm",
 				"damagePerSecond": 500,
-				"position": {"x":107.9445,"y": -38.79,"z": 54.3763},
+				"position": {"x":112.5335,"y": -39.4336,"z": 58.0381},
 				"isRelativeToParent": true
 			}
 		]
@@ -654,8 +654,7 @@
 
 			{
 				"rename":"Lab Door",
-				"assetBundle": "planets/bundle/felix",
-				"path":"assets/nomai ruins/prefabs/orbdoor.prefab",
+				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors/Prefab_NOM_RotatingDoor",
 				"parentPath": "Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Interactables_TimeLoopExperiment",
 				"position": {"x":-12.91,"y": 7.26,"z": 12.828},
 				"rotation": {"x":0,"y": 180,"z": 0},
@@ -663,8 +662,7 @@
 			},
 			{
 				"rename":"Fossil Exit Door",
-				"assetBundle": "planets/bundle/felix",
-				"path":"assets/nomai ruins/prefabs/orbdoor.prefab",
+				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors/Prefab_NOM_RotatingDoor",
 				"parentPath": "Sector_CaveTwin/Sector_SouthHemisphere/Sector_FossilExit/Interactables_FossilExit",
 				"position": {"x":-84.6017,"y": -117.141,"z": -36.8629},
 				"rotation": {"x":355.7864,"y": 161.706,"z": 218.0588},

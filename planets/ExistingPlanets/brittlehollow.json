@@ -11,14 +11,20 @@
 
 
 		
-		"Sector_BH/Sector_QuantumFragment/Geometry_QuantumFragment/ControlledByProxy_Architecture/Architecture_Quantum_Fragment/BatchedGroup/BatchedMeshRenderers_0",
-		"Sector_BH/Sector_QuantumFragment/Geometry_QuantumFragment/ControlledByProxy_Architecture/Architecture_Quantum_Fragment/BatchedGroup/BatchedMeshRenderers_1",
-		"Sector_BH/Sector_QuantumFragment/Geometry_QuantumFragment/ControlledByProxy_Architecture/Architecture_Quantum_Fragment/BatchedGroup/BatchedMeshRenderers_3",
-		"Sector_BH/Sector_QuantumFragment/Geometry_QuantumFragment/ControlledByProxy_Architecture/Architecture_Quantum_Fragment/BatchedGroup/BatchedMeshRenderers_4",
+		
 		"Sector_BH/Sector_QuantumFragment/Interactables_QuantumFragment/Undercrust/GravityFloorVolumes/GravityVolume (2)",
 
 		"Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Volumes_HangingCity_Entrance/GravityVolume",
-		"Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Volumes_HangingCity_Entrance/GravityVolume (6)"
+		"Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_Entrance/Volumes_HangingCity_Entrance/GravityVolume (6)",
+
+		"Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+		"Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume (1)",
+		"Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps",
+		"Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+
+		"Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/GravityGhostPath/DarkMatterVolume",
+		"Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/GravityGhostPath/DarkMatterVolume (1)",
+		"Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/GravityGhostPath/Effects_GM_AuroraWisps"
 	],
 
 	"Props": {
@@ -87,9 +93,8 @@
 				"isRelativeToParent": true
 			},
 			{
-				"rename":"Observatory Door",
-				"assetBundle": "planets/bundle/felix",
-				"path":"assets/nomai ruins/prefabs/orbdoor.prefab",
+				"rename":"Observatory Door", 
+				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors/Prefab_NOM_RotatingDoor",
 				"parentPath": "Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole",
 				"position": {"x":1.7876,"y": -293.5285 ,"z": 52.9885},
 				"rotation": {"x":0,"y": 90,"z": 180},

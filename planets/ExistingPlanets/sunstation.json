@@ -265,6 +265,7 @@
 			"position":{"x":-7.2558,"y": -1.1751,"z":  0.1278},
 			"rotation": {"x":0,"y": 90,"z": 0},
 			"stretch": {"x":2,"y": 1,"z": 3.2},
+			"keepLoaded": true,
 			"isRelativeToParent": true
 		},
 		{
@@ -273,6 +274,7 @@
 			"position":{"x":-16.9376,"y": -1.1751,"z": 0.1278},
 			"rotation": {"x":0,"y": 270,"z": 0},
 			"stretch": {"x":2,"y": 1,"z": 3.2},
+			"keepLoaded": true,
 			"isRelativeToParent": true
 		},
 		{
